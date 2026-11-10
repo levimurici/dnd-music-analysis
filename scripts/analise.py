@@ -10,10 +10,10 @@ escritas pelo Claude (graus, dominantes secundários, escalas de improviso).
 Não depende de bibliotecas externas.
 
 Uso:
-  python scripts/analise.py fatos      musica_concerto.abc            -> musica_fatos.json
-  python scripts/analise.py resumo     musica_concerto.abc            -> musica_resumo.txt (compacto, para ler)
-  python scripts/analise.py checar     musica_concerto.abc analise.json
-  python scripts/analise.py escalas    musica_concerto.abc improviso.json [-o escalas.abc]
+  python scripts/analise.py fatos   musicas/x_concerto.abc                        -> analises/x_fatos.json
+  python scripts/analise.py resumo  musicas/x_concerto.abc                        -> analises/x_resumo.txt (compacto, para ler)
+  python scripts/analise.py checar  musicas/x_concerto.abc analises/x_funcional.json
+  python scripts/analise.py escalas musicas/x_concerto.abc analises/x_improviso.json  -> musicas/x_escalas.abc
 
 Formato do analise.json (escrito na skill analise-funcional):
   {"acordes": [{"idx": 0, "cifra": "Am7(9)", "tom_local": "G", "grau": "IIm7",
@@ -1032,9 +1032,12 @@ def main():
     a = ap.parse_args()
 
     stem = a.abc.stem.replace("_concerto", "")
+    # musicas/ guarda só .abc: fatos e resumo vão para analises/ (pasta irmã)
+    dir_an = a.abc.parent.parent / "analises" if a.abc.parent.name == "musicas" else a.abc.parent
     facts, parsed, notes, nfacts = build_facts(a.abc)
     if a.cmd == "fatos":
-        out = a.o or a.abc.with_name(stem + "_fatos.json")
+        out = a.o or dir_an / (stem + "_fatos.json")
+        out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(facts, ensure_ascii=False, indent=1), encoding="utf-8")
         bad = [c["cifra"] for c in facts["cifras"] if "erro" in c]
         print(f"{len(facts['compassos'])} compassos, {len(facts['cifras'])} cifras, {len(facts['notas'])} notas -> {out}")
@@ -1043,7 +1046,8 @@ def main():
             print("CIFRAS NÃO RECONHECIDAS:", bad)
     elif a.cmd == "resumo":
         txt = resumo(facts)
-        out = a.o or a.abc.with_name(stem + "_resumo.txt")
+        out = a.o or dir_an / (stem + "_resumo.txt")
+        out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(txt, encoding="utf-8")
         print(txt)
     elif a.cmd == "checar":

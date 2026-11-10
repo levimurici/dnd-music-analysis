@@ -8,7 +8,8 @@ Para cada música em musicas/ (ou só as passadas como argumento):
   - escalas: nenhuma opção "segura" do _improviso.json falha
              (falha em "colorida"/"tensão" é só aviso: deve estar comentada no estudo);
   - estudo: tem as cinco seções (tonal, funcional, melódica, improvisação, caminho de estudo) e fica entre 1.500 e 2.500 palavras (fora disso é aviso);
-  - existem os PDFs _sax, _escalas e _estudo.
+  - existem os PDFs em partituras/ (_concerto/_alto/_tenor e _escalas_*) e estudos/;
+  - musicas/ só tem .abc.
 
 Uso:
   python scripts/verificar.py                 # todas as músicas
@@ -24,7 +25,10 @@ import tempfile
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-MUSICAS = RAIZ / "musicas"
+MUSICAS = RAIZ / "musicas"          # só .abc
+ANALISES = RAIZ / "analises"        # _funcional.json, _improviso.json (e _resumo.txt local)
+ESTUDOS = RAIZ / "estudos"          # _estudo.md e _estudo.pdf
+PARTITURAS = RAIZ / "partituras"    # PDFs por instrumento
 ANALISE = RAIZ / "scripts" / "analise.py"
 SECOES = ["Análise tonal", "Análise funcional", "Análise melódica",
           "Improvisação", "Um caminho de estudo"]
@@ -41,9 +45,9 @@ def verificar(nome):
     concerto = MUSICAS / f"{nome}_concerto.abc"
     sugestao = MUSICAS / f"{nome}_sugestao.abc"
     base = sugestao if sugestao.exists() else concerto
-    funcional = MUSICAS / f"{nome}_funcional.json"
-    improviso = MUSICAS / f"{nome}_improviso.json"
-    estudo = MUSICAS / f"{nome}_estudo.md"
+    funcional = ANALISES / f"{nome}_funcional.json"
+    improviso = ANALISES / f"{nome}_improviso.json"
+    estudo = ESTUDOS / f"{nome}_estudo.md"
 
     with tempfile.TemporaryDirectory() as tmp:
         rc, out = rodar("fatos", concerto, "-o", Path(tmp) / "f.json")
@@ -91,9 +95,14 @@ def verificar(nome):
     else:
         avisos.append("sem _estudo.md")
 
-    for suf in ("sax", "escalas", "estudo"):
-        if not (MUSICAS / f"{nome}_{suf}.pdf").exists():
-            avisos.append(f"falta {nome}_{suf}.pdf")
+    pdfs = [PARTITURAS / f"{nome}_{p}{i}.pdf" for p in ("", "escalas_") for i in ("concerto", "alto", "tenor")]
+    pdfs.append(ESTUDOS / f"{nome}_estudo.pdf")
+    for pdf in pdfs:
+        if not pdf.exists():
+            avisos.append(f"falta {pdf.relative_to(RAIZ)}")
+    extras = [p.name for p in MUSICAS.glob(f"{nome}_*") if p.suffix != ".abc"]
+    if extras:
+        erros.append(f"musicas/ deve ter só .abc; mova: {', '.join(sorted(extras))}")
     return erros, avisos
 
 

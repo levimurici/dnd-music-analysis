@@ -14,7 +14,7 @@ npm install
 ```
 
 ## 1. Ler a partitura -> `musicas/<nome>_concerto.abc`
-Se o ABC de concerto já existe, pule. Se a entrada é PDF/foto, **delegue ao subagente `leitor-partitura`**
+Se o ABC de concerto já existe, pule. Se a entrada é PDF/foto (normalmente em `originais/`), **delegue ao subagente `leitor-partitura`**
 (passe o caminho do arquivo e o `<nome>`); ele devolve o ABC pronto e conferido.
 Regras de escrita do ABC (o subagente segue as mesmas):
 - melodia, cifras, fórmula de compasso, armadura, casas 1/2, D.S./Fine/!segno!;
@@ -27,7 +27,7 @@ Confira: soma dos tempos de cada compasso bate com o M:; renderize o ABC e compa
 ## 2. Transpor
 ```bash
 python scripts/sax_transpose.py musicas/<nome>_concerto.abc -o musicas/<nome>_sax.abc [--inst alto tenor] [--octave-alto N] [--octave-tenor N]
-node scripts/render_pdf.js musicas/<nome>_sax.abc
+node scripts/render_pdf.js musicas/<nome>_sax.abc --separar partituras/
 ```
 - Alto = 6ª maior acima; tenor = 9ª maior acima. Cifras ficam sempre em concerto.
 - Regra de oitava: padrão quando a escrita cabe confortável; baixar 1 oitava (-1) quando a melodia de concerto é aguda. Tenor costuma ficar melhor com `--octave-tenor -1`.
@@ -35,4 +35,4 @@ node scripts/render_pdf.js musicas/<nome>_sax.abc
 - Fine/D.S./segno extras que o script não copiar: acrescente à mão no ABC final.
 
 ## Saída
-`musicas/<nome>_sax.abc` (cole em https://editor.drawthedots.com/) e `musicas/<nome>_sax.pdf`. Entregue o PDF e diga a extensão escrita de cada instrumento.
+`musicas/<nome>_sax.abc` (cole em https://editor.drawthedots.com/) e, em `partituras/`, um PDF por instrumento: `<nome>_concerto.pdf`, `<nome>_alto.pdf`, `<nome>_tenor.pdf` (só os instrumentos pedidos). Em `musicas/` ficam só os `.abc`. Entregue os PDFs e diga a extensão escrita de cada instrumento.

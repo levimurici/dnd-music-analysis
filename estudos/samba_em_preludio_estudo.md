@@ -170,7 +170,7 @@ Notas-alvo: a voz de baixo da melodia (seção 3).
 
 ## Um caminho de estudo
 
-**Anote a partitura à mão.** Imprima `samba_em_preludio_sax.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
+**Anote a partitura à mão.** Imprima a parte do seu sax, `partituras/samba_em_preludio_alto.pdf` ou `samba_em_preludio_tenor.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
 
 - embaixo de cada cifra, o grau e a função; ao lado dos diminutos, o dominante que eles escondem (G♯° = E7, G° = A7, F♯° = D7);
 - as duas linhas de baixo cromáticas (c. 1–6 e 12–16), com uma seta descendo nota a nota;

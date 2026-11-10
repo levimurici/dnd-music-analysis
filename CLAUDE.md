@@ -10,8 +10,11 @@ Todos os comandos rodam a partir da **raiz do repositório**.
 
 | Pasta | O que tem |
 |---|---|
-| `partituras/` | PDF/foto original que o Levi coloca (não versionado) |
-| `musicas/` | Tudo de cada música, com prefixo `<nome>_` (ver tabela de arquivos abaixo) |
+| `originais/` | PDF/foto original que o Levi coloca (não versionado) |
+| `musicas/` | **Só `.abc`**: concerto, sax, escalas, sugestão |
+| `partituras/` | PDFs gerados, um por instrumento: `_concerto.pdf`, `_alto.pdf`, `_tenor.pdf` (e `_escalas_*`) |
+| `estudos/` | `_estudo.md` (fonte) e `_estudo.pdf` |
+| `analises/` | Dados das análises: `_resumo.txt`, `_funcional.json`, `_improviso.json` |
 | `scripts/` | Scripts determinísticos (sem IA): transposição, fatos/checagem, renderização |
 | `glossario.md` | Teoria e convenções, escritas UMA vez. Os estudos não repetem teoria geral |
 | `exemplos/` | Arquivos de teste dos scripts |
@@ -26,10 +29,12 @@ Quando o Levi pedir "fluxo completo", "faz tudo", "estuda essa música" ou só e
 use a skill **`estudo-completo`**. Ela encadeia as outras na ordem:
 
 ```
-partitura (PDF/foto)  ──▶  1. transpor-sax        ──▶ <nome>_concerto.abc, <nome>_sax.abc/.pdf
-                           2. analise-harmonica   ──▶ <nome>_funcional.json, <nome>_estudo.md (seções 1–3, 5)
-                           3. improvisacao-sax    ──▶ <nome>_improviso.json, <nome>_escalas.abc/.pdf, seção 4
-                           4. revisor-estudo      ──▶ conferência final  ──▶ <nome>_estudo.pdf
+originais/ (PDF/foto) ─▶ 1. transpor-sax       ─▶ musicas/<nome>_concerto.abc, _sax.abc
+                                                   partituras/<nome>_concerto.pdf, _alto.pdf, _tenor.pdf
+                         2. analise-harmonica  ─▶ analises/<nome>_funcional.json, estudos/<nome>_estudo.md (1–3, 5)
+                         3. improvisacao-sax   ─▶ analises/<nome>_improviso.json, musicas/<nome>_escalas.abc
+                                                   partituras/<nome>_escalas_{concerto,alto,tenor}.pdf, seção 4
+                         4. revisor-estudo     ─▶ conferência final ─▶ estudos/<nome>_estudo.pdf
 ```
 
 Pedidos parciais chamam só a skill correspondente:
@@ -45,7 +50,7 @@ Dependências: a funcional precisa da tonal; a melódica precisa da funcional; a
 
 ## Subagentes
 
-- **`leitor-partitura`**: lê o PDF/foto e escreve `musicas/<nome>_concerto.abc`. Use-o sempre que a
+- **`leitor-partitura`**: lê o PDF/foto de `originais/` e escreve `musicas/<nome>_concerto.abc`. Use-o sempre que a
   entrada for imagem/PDF: a leitura visual gasta muitos tokens e fica fora do contexto principal.
 - **`revisor-estudo`**: confere um `_estudo.md` contra as regras (tamanho, citação de compassos,
   redundância, checagens N/N) e devolve só a lista de problemas.
@@ -54,17 +59,21 @@ Dependências: a funcional precisa da tonal; a melódica precisa da funcional; a
 
 | Arquivo | Quem gera | Ler? |
 |---|---|---|
-| `_concerto.abc` | leitor-partitura / transpor-sax | sim |
-| `_sax.abc`, `_sax.pdf` | `scripts/sax_transpose.py` + `scripts/render_pdf.js` | não |
-| `_resumo.txt` | `scripts/analise.py resumo` | **sim — é a fonte de fatos** |
-| `_fatos.json` | `scripts/analise.py fatos` | **não** (grande; não versionado) |
-| `_sugestao.abc` | analise-harmonica, quando a partitura não tem cifras | sim |
-| `_funcional.json` | analise-harmonica | sim |
-| `_improviso.json` | improvisacao-sax | sim |
-| `_escalas.abc/.pdf` | `scripts/analise.py escalas` + `render_pdf.js` | não |
-| `_estudo.md/.pdf` | analise-harmonica + improvisacao-sax + `render_estudo.js` | sim (o .md) |
+| `musicas/<nome>_concerto.abc` | leitor-partitura / transpor-sax | sim |
+| `musicas/<nome>_sax.abc` | `scripts/sax_transpose.py` | não |
+| `musicas/<nome>_sugestao.abc` | analise-harmonica, quando a partitura não tem cifras | sim |
+| `musicas/<nome>_escalas.abc` | `scripts/analise.py escalas` | não |
+| `partituras/<nome>_{concerto,alto,tenor}.pdf` | `render_pdf.js musicas/<nome>_sax.abc --separar partituras/` | não |
+| `partituras/<nome>_escalas_{concerto,alto,tenor}.pdf` | `render_pdf.js musicas/<nome>_escalas.abc --separar partituras/` | não |
+| `analises/<nome>_resumo.txt` | `scripts/analise.py resumo` | **sim — é a fonte de fatos** |
+| `analises/<nome>_fatos.json` | `scripts/analise.py fatos` | **não** (grande; não versionado) |
+| `analises/<nome>_funcional.json` | analise-harmonica | sim |
+| `analises/<nome>_improviso.json` | improvisacao-sax | sim |
+| `estudos/<nome>_estudo.md/.pdf` | analise-harmonica + improvisacao-sax + `render_estudo.js` | sim (o .md) |
 
-Gabarito de forma e profundidade: **`musicas/autumn_leaves_estudo.md`**.
+Nunca grave PDF, JSON ou TXT em `musicas/`: o `verificar.py` acusa erro.
+
+Gabarito de forma e profundidade: **`estudos/autumn_leaves_estudo.md`**.
 
 ## Regras que valem para todas as skills
 
@@ -87,5 +96,5 @@ Sem internet para baixar o Chromium: `export CHROMIUM_PATH=/caminho/do/chrome`.
 
 ## Entrega
 
-Ao terminar, diga ao Levi em 2–3 frases a tese da música e liste os PDFs gerados
-(`_sax.pdf`, `_escalas.pdf`, `_estudo.pdf`) com o caminho.
+Ao terminar, diga ao Levi em 2–3 frases a tese da música e liste os PDFs gerados com o caminho
+(`partituras/<nome>_alto.pdf`, `_tenor.pdf`, `_concerto.pdf`, `_escalas_*.pdf` e `estudos/<nome>_estudo.pdf`).
