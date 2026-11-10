@@ -87,12 +87,16 @@ Gabarito de forma e profundidade: **`estudos/autumn_leaves_estudo.md`**.
 ## Ambiente
 
 ```bash
-pip install -r requirements.txt     # music21
-npm install                         # abcjs, marked, playwright (+ Chromium)
+bash scripts/setup.sh               # music21 + abcjs/marked/playwright, em paralelo; pula o que já existe
 python scripts/verificar.py         # confere as músicas já prontas
 ```
 
-Sem internet para baixar o Chromium: `export CHROMIUM_PATH=/caminho/do/chrome`.
+Rode `bash scripts/setup.sh` **logo no início** de qualquer pedido (é instantâneo se já estiver pronto).
+O Chromium é encontrado sozinho (`scripts/chromium.js`): se já houver um no sistema, nada é baixado.
+`CHROMIUM_PATH` força um caminho específico.
+
+**Velocidade:** a etapa mais lenta é ler imagem. Se o Levi mandar MusicXML (exportado do MuseScore etc.),
+use-o direto: `python scripts/sax_transpose.py arquivo.musicxml` dispensa a leitura visual.
 
 ## Entrega
 

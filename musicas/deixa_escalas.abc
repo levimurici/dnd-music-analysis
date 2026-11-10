@@ -1,0 +1,155 @@
+X:1
+T:Deixa - escalas de improviso
+T:Concerto (C)
+M:none
+L:1/4
+K:C
+%
+"_Am7 · segura: Lá eólio""^c. 1-6: Am7 abre e a frase cai em Dó maior (com desvio para o IV)"A B c d e f g a |]
+"_Am7 · colorida: Lá dórico"A B c d e ^f g a |]
+"_Fmaj7 · segura: Fá lídio"F G A B c d e f |]
+"_G7(13) · segura: Sol mixolídio"G A B c d e f g |]
+"_G7(♭13) · segura: Sol mixolídio b13"G A B c d _e f g |]
+"_G7(♭13) · tensão: Sol alterada"G _A _B _c _d _e f g |]
+"_Cmaj7 · segura: Dó jônio"C D E F G A B c |]
+"_Cmaj7 · colorida: Dó lídio"C D E ^F G A B c |]
+"_Gm7 · segura: Sol dórico"G A _B c d e f g |]
+"_C7(9) · segura: Dó mixolídio"C D E F G A _B c |]
+"_C7(9) · colorida: Dó lídio b7"C D E ^F G A _B c |]
+%
+"_Fmaj7 · segura: Fá lídio""^c. 7-11: Fá maior vira bVI e o II-V-I menor volta para Lá"F G A B c d e f |]
+"_Dm7 · segura: Ré dórico"D E F G A B c d |]
+"_Dm7 · colorida: Ré eólio"D E F G A _B c d |]
+"_E7(♭13) · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7(♭13) · tensão: Mi alterada"E F G _A _B c d e |]
+"_Am7 · segura: Lá eólio"A B c d e f g a |]
+"_Am7 · colorida: Lá dórico"A B c d e ^f g a |]
+%
+"_Fmaj7 · segura: Fá lídio""^c. 12-16 (casa 1): bVI7M - V7 - Im"F G A B c d e f |]
+"_E7(♭9) · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7(♭9) · tensão: Mi dominante diminuta"E F G ^G ^A B ^c d e |]
+"_Am7 · segura: Lá eólio"A B c d e f g a |]
+"_Am7 · colorida: Lá pentatônica menor"A c d e g a |]
+%
+"_Em7 · segura: Mi eólio""^c. 17-20: Mi menor tonicizado ('deixa, deixa')"E ^F G A B c d e |]
+"_Em7 · colorida: Mi dórico"E ^F G A B ^c d e |]
+"_B7(4) · segura: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_B7 · segura: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_B7 · tensão: Si alterada"B c d _e f g a b |]
+"_E7(♭13) · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7(♭13) · tensão: Mi alterada"E F G _A _B c d e |]
+%
+"_Am7 · segura: Lá eólio""^c. 21-33 (casa 2 e final): V7/V, diminuto e cadência final"A B c d e f g a |]
+"_B7 · segura: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_B7 · colorida: Si mixolídio"B ^c ^d e ^f ^g a b |]
+"_E7(♭9) · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7(♭9) · tensão: Mi dominante diminuta"E F G ^G ^A B ^c d e |]
+"_F#° · segura: Fá♯ diminuta tom-semitom"^F ^G A B c d ^d f ^f |]
+"_E7(♭13) · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7(♭13) · tensão: Mi alterada"E F G _A _B c d e |]
+"_Am7 · segura: Lá eólio"A B c d e f g a |]
+"_Am7 · colorida: Lá dórico"A B c d e ^f g a |]
+
+X:2
+T:Deixa - escalas de improviso
+T:Sax Alto (Eb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am7 · segura: Fá♯ eólio""^c. 1-6: Am7 abre e a frase cai em Dó maior (com desvio para o IV)"^F ^G A B ^c d e ^f |]
+"_Am7 · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+"_Fmaj7 · segura: Ré lídio"D E ^F ^G A B ^c d |]
+"_G7(13) · segura: Mi mixolídio"E ^F ^G A B ^c d e |]
+"_G7(♭13) · segura: Mi mixolídio b13"E ^F ^G A B c d e |]
+"_G7(♭13) · tensão: Mi alterada"E F G _A _B c d e |]
+"_Cmaj7 · segura: Lá jônio"A B ^c d e ^f ^g a |]
+"_Cmaj7 · colorida: Lá lídio"A B ^c ^d e ^f ^g a |]
+"_Gm7 · segura: Mi dórico"E ^F G A B ^c d e |]
+"_C7(9) · segura: Lá mixolídio"A B ^c d e ^f g a |]
+"_C7(9) · colorida: Lá lídio b7"A B ^c ^d e ^f g a |]
+%
+"_Fmaj7 · segura: Ré lídio""^c. 7-11: Fá maior vira bVI e o II-V-I menor volta para Lá"D E ^F ^G A B ^c d |]
+"_Dm7 · segura: Si dórico"B ^c d e ^f ^g a b |]
+"_Dm7 · colorida: Si eólio"B ^c d e ^f g a b |]
+"_E7(♭13) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7(♭13) · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+"_Am7 · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Am7 · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+%
+"_Fmaj7 · segura: Ré lídio""^c. 12-16 (casa 1): bVI7M - V7 - Im"D E ^F ^G A B ^c d |]
+"_E7(♭9) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7(♭9) · tensão: Dó♯ dominante diminuta"^C D E F G ^G ^A B ^c |]
+"_Am7 · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Am7 · colorida: Fá♯ pentatônica menor"^F A B ^c e ^f |]
+%
+"_Em7 · segura: Dó♯ eólio""^c. 17-20: Mi menor tonicizado ('deixa, deixa')"^C ^D E ^F ^G A B ^c |]
+"_Em7 · colorida: Dó♯ dórico"^C ^D E ^F ^G ^A B ^c |]
+"_B7(4) · segura: Sol♯ mixolídio b9 b13"^G A ^B ^c ^d e ^f ^g |]
+"_B7 · segura: Sol♯ mixolídio b9 b13"^G A ^B ^c ^d e ^f ^g |]
+"_B7 · tensão: Sol♯ alterada"^G A B c d e ^f ^g |]
+"_E7(♭13) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7(♭13) · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+%
+"_Am7 · segura: Fá♯ eólio""^c. 21-33 (casa 2 e final): V7/V, diminuto e cadência final"^F ^G A B ^c d e ^f |]
+"_B7 · segura: Sol♯ mixolídio b9 b13"^G A ^B ^c ^d e ^f ^g |]
+"_B7 · colorida: Lá♭ mixolídio"_A _B c _d _e f _g _a |]
+"_E7(♭9) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7(♭9) · tensão: Dó♯ dominante diminuta"^C D E F G ^G ^A B ^c |]
+"_F#° · segura: Ré♯ diminuta tom-semitom"^D F ^F ^G A B c d ^d |]
+"_E7(♭13) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7(♭13) · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+"_Am7 · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Am7 · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+
+X:3
+T:Deixa - escalas de improviso
+T:Sax Tenor (Bb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am7 · segura: Si eólio""^c. 1-6: Am7 abre e a frase cai em Dó maior (com desvio para o IV)"B ^c d e ^f g a b |]
+"_Am7 · colorida: Si dórico"B ^c d e ^f ^g a b |]
+"_Fmaj7 · segura: Sol lídio"G A B ^c d e ^f g |]
+"_G7(13) · segura: Lá mixolídio"A B ^c d e ^f g a |]
+"_G7(♭13) · segura: Lá mixolídio b13"A B ^c d e f g a |]
+"_G7(♭13) · tensão: Lá alterada"A _B c _d _e f g a |]
+"_Cmaj7 · segura: Ré jônio"D E ^F G A B ^c d |]
+"_Cmaj7 · colorida: Ré lídio"D E ^F ^G A B ^c d |]
+"_Gm7 · segura: Lá dórico"A B c d e ^f g a |]
+"_C7(9) · segura: Ré mixolídio"D E ^F G A B c d |]
+"_C7(9) · colorida: Ré lídio b7"D E ^F ^G A B c d |]
+%
+"_Fmaj7 · segura: Sol lídio""^c. 7-11: Fá maior vira bVI e o II-V-I menor volta para Lá"G A B ^c d e ^f g |]
+"_Dm7 · segura: Mi dórico"E ^F G A B ^c d e |]
+"_Dm7 · colorida: Mi eólio"E ^F G A B c d e |]
+"_E7(♭13) · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7(♭13) · tensão: Fá♯ alterada"^F G A _B c d e ^f |]
+"_Am7 · segura: Si eólio"B ^c d e ^f g a b |]
+"_Am7 · colorida: Si dórico"B ^c d e ^f ^g a b |]
+%
+"_Fmaj7 · segura: Sol lídio""^c. 12-16 (casa 1): bVI7M - V7 - Im"G A B ^c d e ^f g |]
+"_E7(♭9) · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7(♭9) · tensão: Fá♯ dominante diminuta"^F G A ^A c ^c ^d e ^f |]
+"_Am7 · segura: Si eólio"B ^c d e ^f g a b |]
+"_Am7 · colorida: Si pentatônica menor"B d e ^f a b |]
+%
+"_Em7 · segura: Fá♯ eólio""^c. 17-20: Mi menor tonicizado ('deixa, deixa')"^F ^G A B ^c d e ^f |]
+"_Em7 · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+"_B7(4) · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_B7 · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_B7 · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+"_E7(♭13) · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7(♭13) · tensão: Fá♯ alterada"^F G A _B c d e ^f |]
+%
+"_Am7 · segura: Si eólio""^c. 21-33 (casa 2 e final): V7/V, diminuto e cadência final"B ^c d e ^f g a b |]
+"_B7 · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_B7 · colorida: Dó♯ mixolídio"^C ^D ^E ^F ^G ^A B ^c |]
+"_E7(♭9) · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7(♭9) · tensão: Fá♯ dominante diminuta"^F G A ^A c ^c ^d e ^f |]
+"_F#° · segura: Sol♯ diminuta tom-semitom"^G ^A B ^c d e f g ^g |]
+"_E7(♭13) · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7(♭13) · tensão: Fá♯ alterada"^F G A _B c d e ^f |]
+"_Am7 · segura: Si eólio"B ^c d e ^f g a b |]
+"_Am7 · colorida: Si dórico"B ^c d e ^f ^g a b |]

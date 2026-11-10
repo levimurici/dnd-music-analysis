@@ -11,10 +11,11 @@
 //          (o instrumento vem do 2º T: de cada música; sem ele, conta como concerto.
 //           O sufixo _sax do nome é retirado; outros sufixos ficam: x_escalas_alto.pdf)
 //
-// CHROMIUM_PATH: usa um Chromium/Chrome já instalado em vez do baixado pelo Playwright.
+// Chromium: detectado sozinho (scripts/chromium.js); CHROMIUM_PATH força um caminho.
 const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
+const { launchOptions } = require('./chromium');
 
 const PAGE_W = 718;   // largura útil de A4 com margem de 10 mm, em px CSS
 const PAGE_H = 1040;  // altura útil de A4 com margem de 10 mm (com folga)
@@ -84,7 +85,7 @@ async function renderTunes(browser, abcjs, tunes, out) {
   const abcjs = fs.readFileSync(require.resolve('abcjs/dist/abcjs-basic-min.js'), 'utf8');
   const tunes = abc.split(/\n(?=X:)/).filter(t => t.trim());
 
-  const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
+  const browser = await chromium.launch(launchOptions(chromium));
   if (dirSep) {
     fs.mkdirSync(dirSep, { recursive: true });
     const base = path.basename(input).replace(/\.abc$/i, '').replace(/_sax$/, '');

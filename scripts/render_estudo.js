@@ -5,6 +5,7 @@
 const fs = require('fs');
 const { marked } = require('marked');
 const { chromium } = require('playwright');
+const { launchOptions } = require('./chromium');
 
 (async () => {
   const input = process.argv[2];
@@ -29,8 +30,7 @@ const { chromium } = require('playwright');
     tbody tr:nth-child(even) td { background: #f8fafc; }
     strong { color: #111; }
   </style></head><body>${body}</body></html>`;
-  // CHROMIUM_PATH: usa um Chromium/Chrome já instalado em vez do baixado pelo Playwright
-  const browser = await chromium.launch(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {});
+  const browser = await chromium.launch(launchOptions(chromium));
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: 'load' });
   await page.pdf({ path: out, format: 'A4', printBackground: true,
