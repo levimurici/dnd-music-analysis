@@ -1,0 +1,2 @@
+# Só o sax_transpose.py precisa; analise.py é Python puro.
+music21>=9.1

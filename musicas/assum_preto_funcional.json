@@ -1,0 +1,175 @@
+{
+ "acordes": [
+  {
+   "idx": 0,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 1,
+   "cifra": "A7",
+   "tom_local": "Am",
+   "grau": "V7/IVm",
+   "funcao": "D",
+   "alvo": "IVm",
+   "confianca": "provável"
+  },
+  {
+   "idx": 2,
+   "cifra": "Dm",
+   "tom_local": "Am",
+   "grau": "IVm",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 3,
+   "cifra": "G7",
+   "tom_local": "C",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": "I",
+   "confianca": "provável"
+  },
+  {
+   "idx": 4,
+   "cifra": "C",
+   "tom_local": "C",
+   "grau": "I",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 5,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 6,
+   "cifra": "G7",
+   "tom_local": "C",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": "I",
+   "confianca": "provável"
+  },
+  {
+   "idx": 7,
+   "cifra": "C",
+   "tom_local": "C",
+   "grau": "I",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 8,
+   "cifra": "A7",
+   "tom_local": "Am",
+   "grau": "V7/IVm",
+   "funcao": "D",
+   "alvo": "IVm",
+   "confianca": "provável"
+  },
+  {
+   "idx": 9,
+   "cifra": "Dm",
+   "tom_local": "Am",
+   "grau": "IVm",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 10,
+   "cifra": "C",
+   "tom_local": "Am",
+   "grau": "bIII",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 11,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 12,
+   "cifra": "E7",
+   "tom_local": "Am",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 13,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 14,
+   "cifra": "G7",
+   "tom_local": "Am",
+   "grau": "bVII7",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 15,
+   "cifra": "F7M",
+   "tom_local": "Am",
+   "grau": "bVI7M",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 16,
+   "cifra": "E7",
+   "tom_local": "Am",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 17,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 18,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "provável"
+  }
+ ]
+}

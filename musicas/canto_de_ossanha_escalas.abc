@@ -1,0 +1,92 @@
+X:1
+T:Canto de Ossanha - escalas de improviso
+T:Concerto (C)
+M:none
+L:1/4
+K:C
+%
+"_Cm · segura: Dó eólio""^c. 1-32: vamp em Dó menor (Cm, Cm/Bb, A°, Ab6)"C D _E F G _A _B c |]
+"_Cm · colorida: Dó dórico"C D _E F G A _B c |]
+"_Cm · colorida: Dó blues"C ^D F ^F G ^A c |]
+"_A° · segura: Lá diminuta tom-semitom"A B c d ^d f ^f ^g a |]
+"_A° · colorida: Ré mixolídio b9 b13"D _E ^F G A _B c d |]
+"_Ab6 · segura: Lá♭ lídio"_A _B c d _e f g _a |]
+%
+"_C6∕9 · segura: Dó jônio""^c. 33-40: parte em Dó maior"C D E F G A B c |]
+"_C6∕9 · colorida: Dó lídio"C D E ^F G A B c |]
+"_Gm7 · segura: Sol dórico"G A _B c d e f g |]
+"_C7(9) · segura: Dó mixolídio"C D E F G A _B c |]
+"_C7(9) · colorida: Dó lídio b7"C D E ^F G A _B c |]
+"_E7(♯9) · segura: Mi dominante diminuta"E F G ^G ^A B ^c d e |]
+"_E7(♯9) · colorida: Mi alterada"E F G _A _B c d e |]
+"_E7(♯9) · tensão: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_Am7 · segura: Lá eólio"A B c d e f g a |]
+"_Am7 · colorida: Lá dórico"A B c d e ^f g a |]
+"_D7(9) · segura: Ré mixolídio"D E ^F G A B c d |]
+"_G7(9) · segura: Sol mixolídio"G A B c d e f g |]
+%
+"_Dm7 · segura: Ré dórico""^c. 41-42: volta para Dó menor (casa 2)"D E F G A B c d |]
+"_G7(9) · segura: Sol mixolídio b13"G A B c d _e f g |]
+"_G7(9) · tensão: Sol mixolídio b9 b13"G _A B c d _e f g |]
+
+X:2
+T:Canto de Ossanha - escalas de improviso
+T:Sax Alto (Eb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Cm · segura: Lá eólio""^c. 1-32: vamp em Dó menor (Cm, Cm/Bb, A°, Ab6)"A B c d e f g a |]
+"_Cm · colorida: Lá dórico"A B c d e ^f g a |]
+"_Cm · colorida: Lá blues"A c d ^d e g a |]
+"_A° · segura: Fá♯ diminuta tom-semitom"^F ^G A B c d ^d f ^f |]
+"_A° · colorida: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_Ab6 · segura: Fá lídio"F G A B c d e f |]
+%
+"_C6∕9 · segura: Lá jônio""^c. 33-40: parte em Dó maior"A B ^c d e ^f ^g a |]
+"_C6∕9 · colorida: Lá lídio"A B ^c ^d e ^f ^g a |]
+"_Gm7 · segura: Mi dórico"E ^F G A B ^c d e |]
+"_C7(9) · segura: Lá mixolídio"A B ^c d e ^f g a |]
+"_C7(9) · colorida: Lá lídio b7"A B ^c ^d e ^f g a |]
+"_E7(♯9) · segura: Dó♯ dominante diminuta"^C D E F G ^G ^A B ^c |]
+"_E7(♯9) · colorida: Dó♯ alterada"^C D E F G A B ^c |]
+"_E7(♯9) · tensão: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_Am7 · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Am7 · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+"_D7(9) · segura: Si mixolídio"B ^c ^d e ^f ^g a b |]
+"_G7(9) · segura: Mi mixolídio"E ^F ^G A B ^c d e |]
+%
+"_Dm7 · segura: Si dórico""^c. 41-42: volta para Dó menor (casa 2)"B ^c d e ^f ^g a b |]
+"_G7(9) · segura: Mi mixolídio b13"E ^F ^G A B c d e |]
+"_G7(9) · tensão: Mi mixolídio b9 b13"E F ^G A B c d e |]
+
+X:3
+T:Canto de Ossanha - escalas de improviso
+T:Sax Tenor (Bb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Cm · segura: Ré eólio""^c. 1-32: vamp em Dó menor (Cm, Cm/Bb, A°, Ab6)"D E F G A _B c d |]
+"_Cm · colorida: Ré dórico"D E F G A B c d |]
+"_Cm · colorida: Ré blues"D F G ^G A c d |]
+"_A° · segura: Si diminuta tom-semitom"B ^c d e f g ^g ^a b |]
+"_A° · colorida: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_Ab6 · segura: Si♭ lídio"_B c d e f g a _b |]
+%
+"_C6∕9 · segura: Ré jônio""^c. 33-40: parte em Dó maior"D E ^F G A B ^c d |]
+"_C6∕9 · colorida: Ré lídio"D E ^F ^G A B ^c d |]
+"_Gm7 · segura: Lá dórico"A B c d e ^f g a |]
+"_C7(9) · segura: Ré mixolídio"D E ^F G A B c d |]
+"_C7(9) · colorida: Ré lídio b7"D E ^F ^G A B c d |]
+"_E7(♯9) · segura: Fá♯ dominante diminuta"^F G A ^A c ^c ^d e ^f |]
+"_E7(♯9) · colorida: Fá♯ alterada"^F G A _B c d e ^f |]
+"_E7(♯9) · tensão: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_Am7 · segura: Si eólio"B ^c d e ^f g a b |]
+"_Am7 · colorida: Si dórico"B ^c d e ^f ^g a b |]
+"_D7(9) · segura: Mi mixolídio"E ^F ^G A B ^c d e |]
+"_G7(9) · segura: Lá mixolídio"A B ^c d e ^f g a |]
+%
+"_Dm7 · segura: Mi dórico""^c. 41-42: volta para Dó menor (casa 2)"E ^F G A B ^c d e |]
+"_G7(9) · segura: Lá mixolídio b13"A B ^c d e f g a |]
+"_G7(9) · tensão: Lá mixolídio b9 b13"A _B ^c d e f g a |]

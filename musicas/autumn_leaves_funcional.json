@@ -1,0 +1,249 @@
+{
+ "acordes": [
+  {
+   "idx": 0,
+   "cifra": "Am7(9)",
+   "tom_local": "G",
+   "grau": "IIm7",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 1,
+   "cifra": "D7(9∕13)",
+   "tom_local": "G",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 2,
+   "cifra": "G7M",
+   "tom_local": "G",
+   "grau": "I7M",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 3,
+   "cifra": "C7M",
+   "tom_local": "Em",
+   "grau": "bVI7M",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 4,
+   "cifra": "F#m7b5",
+   "tom_local": "Em",
+   "grau": "IIm7(b5)",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 5,
+   "cifra": "B7(♭13)",
+   "tom_local": "Em",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 6,
+   "cifra": "Em7(9)",
+   "tom_local": "Em",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 7,
+   "cifra": "E7(♯9)",
+   "tom_local": "Em",
+   "grau": "V7/IVm",
+   "funcao": "D",
+   "alvo": "IVm",
+   "confianca": "certo",
+   "proximo_idx": 0
+  },
+  {
+   "idx": 8,
+   "cifra": "B7(♭13)",
+   "tom_local": "Em",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 9,
+   "cifra": "Em7(9)",
+   "tom_local": "Em",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 10,
+   "cifra": "F#m7b5",
+   "tom_local": "Em",
+   "grau": "IIm7(b5)",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 11,
+   "cifra": "B7(♭13)",
+   "tom_local": "Em",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 12,
+   "cifra": "Em7(9)",
+   "tom_local": "Em",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 13,
+   "cifra": "Am7(9)",
+   "tom_local": "G",
+   "grau": "IIm7",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 14,
+   "cifra": "D7(9∕13)",
+   "tom_local": "G",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 15,
+   "cifra": "G7M",
+   "tom_local": "G",
+   "grau": "I7M",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 16,
+   "cifra": "C7M",
+   "tom_local": "Em",
+   "grau": "bVI7M",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 17,
+   "cifra": "F#m7b5",
+   "tom_local": "Em",
+   "grau": "IIm7(b5)",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 18,
+   "cifra": "B7(♭13)",
+   "tom_local": "Em",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 19,
+   "cifra": "Em7",
+   "tom_local": "Em",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 20,
+   "cifra": "Eb7(♯11)",
+   "tom_local": "C",
+   "grau": "SubV7/IIm",
+   "funcao": "D",
+   "alvo": "IIm",
+   "confianca": "provável"
+  },
+  {
+   "idx": 21,
+   "cifra": "Dm7",
+   "tom_local": "C",
+   "grau": "IIm7",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 22,
+   "cifra": "Db7(♯11)",
+   "tom_local": "C",
+   "grau": "SubV7/I",
+   "funcao": "D",
+   "alvo": "I",
+   "confianca": "provável"
+  },
+  {
+   "idx": 23,
+   "cifra": "C7M",
+   "tom_local": "C",
+   "grau": "I7M",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "ambíguo"
+  },
+  {
+   "idx": 24,
+   "cifra": "B7(♭13)",
+   "tom_local": "Em",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 25,
+   "cifra": "Em7(9)",
+   "tom_local": "Em",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 26,
+   "cifra": "E7(♯9)",
+   "tom_local": "Em",
+   "grau": "V7/IVm",
+   "funcao": "D",
+   "alvo": "IVm",
+   "confianca": "certo",
+   "proximo_idx": 0
+  }
+ ]
+}

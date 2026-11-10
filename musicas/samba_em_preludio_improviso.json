@@ -1,0 +1,181 @@
+{
+ "trechos": [
+  {
+   "titulo": "c. 1-6: Am, bordadura F/A e diminutos descendo",
+   "idx": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "opcoes": [
+    {
+     "idx": 0,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 0,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    },
+    {
+     "idx": 1,
+     "nivel": "segura",
+     "escala": "F lídio"
+    },
+    {
+     "idx": 2,
+     "nivel": "segura",
+     "escala": "A menor harmônica"
+    },
+    {
+     "idx": 2,
+     "nivel": "colorida",
+     "escala": "G# diminuta tom-semitom"
+    },
+    {
+     "idx": 3,
+     "nivel": "segura",
+     "escala": "D menor harmônica"
+    },
+    {
+     "idx": 3,
+     "nivel": "colorida",
+     "escala": "G diminuta tom-semitom"
+    },
+    {
+     "idx": 4,
+     "nivel": "segura",
+     "escala": "A mixolídio b9 b13"
+    },
+    {
+     "idx": 4,
+     "nivel": "tensão",
+     "escala": "A alterada"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 7-11: Ré menor tonicizado e II-V-I menor",
+   "idx": [
+    5,
+    7,
+    8,
+    9
+   ],
+   "opcoes": [
+    {
+     "idx": 5,
+     "nivel": "segura",
+     "escala": "D dórico"
+    },
+    {
+     "idx": 5,
+     "nivel": "colorida",
+     "escala": "D eólio"
+    },
+    {
+     "idx": 7,
+     "nivel": "segura",
+     "escala": "B lócrio"
+    },
+    {
+     "idx": 7,
+     "nivel": "colorida",
+     "escala": "B lócrio 2"
+    },
+    {
+     "idx": 8,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 8,
+     "nivel": "colorida",
+     "escala": "E dominante diminuta"
+    },
+    {
+     "idx": 8,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    },
+    {
+     "idx": 9,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 9,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 12-16: baixo cromático descendo (casa 1)",
+   "idx": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "opcoes": [
+    {
+     "idx": 10,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 11,
+     "nivel": "segura",
+     "escala": "F# diminuta tom-semitom"
+    },
+    {
+     "idx": 11,
+     "nivel": "tensão",
+     "escala": "D mixolídio b9 b13"
+    },
+    {
+     "idx": 12,
+     "nivel": "segura",
+     "escala": "D dórico"
+    },
+    {
+     "idx": 13,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 13,
+     "nivel": "colorida",
+     "escala": "E mixolídio b13"
+    },
+    {
+     "idx": 13,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 17-20: final (casa 2)",
+   "idx": [
+    15
+   ],
+   "opcoes": [
+    {
+     "idx": 15,
+     "nivel": "segura",
+     "escala": "F lídio b7"
+    },
+    {
+     "idx": 15,
+     "nivel": "colorida",
+     "escala": "F mixolídio"
+    }
+   ]
+  }
+ ]
+}

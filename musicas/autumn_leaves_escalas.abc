@@ -1,0 +1,113 @@
+X:1
+T:Autumn Leaves - escalas de improviso
+T:Concerto (C)
+M:none
+L:1/4
+K:C
+%
+"_Am7(9) · segura: Lá dórico""^c. 1-3: II-V-I em Sol maior"A B c d e ^f g a |]
+"_Am7(9) · colorida: Lá pentatônica menor"A c d e g a |]
+"_D7(9∕13) · segura: Ré mixolídio"D E ^F G A B c d |]
+"_D7(9∕13) · colorida: Ré lídio b7"D E ^F ^G A B c d |]
+"_D7(9∕13) · tensão: Ré dominante diminuta"D ^D F ^F ^G A B c d |]
+"_G7M · segura: Sol jônio"G A B c d e ^f g |]
+"_G7M · colorida: Sol lídio"G A B ^c d e ^f g |]
+%
+"_C7M · segura: Dó lídio""^c. 4-7: II-V-I em Mi menor"C D E ^F G A B c |]
+"_C7M · colorida: Mi pentatônica menor"E G A B d e |]
+"_F#m7b5 · segura: Fá♯ lócrio"^F G A B c d e ^f |]
+"_F#m7b5 · colorida: Fá♯ lócrio 2"^F ^G A B c d e ^f |]
+"_B7(♭13) · segura: Si mixolídio b13"B ^c ^d e ^f g a b |]
+"_B7(♭13) · colorida: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_B7(♭13) · tensão: Si alterada"B c d _e f g a b |]
+"_Em7(9) · segura: Mi eólio"E ^F G A B c d e |]
+"_Em7(9) · colorida: Mi dórico"E ^F G A B ^c d e |]
+"_Em7(9) · tensão: Mi blues"E G A ^A B d e |]
+%
+"_E7(♯9) · segura: Mi dominante diminuta""^c. 8: E7(#9) volta para o Am7"E F G ^G ^A B ^c d e |]
+"_E7(♯9) · colorida: Mi alterada"E F G _A _B c d e |]
+"_E7(♯9) · tensão: Mi mixolídio b9 b13"E F ^G A B c d e |]
+%
+"_Eb7(♯11) · segura: Mi♭ lídio b7""^c. 22-24: descida cromática até C7M"_E F G A _B c _d _e |]
+"_Eb7(♯11) · colorida: Mi♭ tons inteiros"_E F G A B _d _e |]
+"_Dm7 · segura: Ré dórico"D E F G A B c d |]
+"_Db7(♯11) · segura: Ré♭ lídio b7"_D _E F G _A _B _c _d |]
+"_Db7(♯11) · colorida: Dó♯ alterada"^C D E F G A B ^c |]
+"_C7M · segura: Dó lídio"C D E ^F G A B c |]
+"_C7M · colorida: Dó jônio"C D E F G A B c |]
+
+X:2
+T:Autumn Leaves - escalas de improviso
+T:Sax Alto (Eb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am7(9) · segura: Fá♯ dórico""^c. 1-3: II-V-I em Sol maior"^F ^G A B ^c ^d e ^f |]
+"_Am7(9) · colorida: Fá♯ pentatônica menor"^F A B ^c e ^f |]
+"_D7(9∕13) · segura: Si mixolídio"B ^c ^d e ^f ^g a b |]
+"_D7(9∕13) · colorida: Si lídio b7"B ^c ^d ^e ^f ^g a b |]
+"_D7(9∕13) · tensão: Si dominante diminuta"B c d ^d f ^f ^g a b |]
+"_G7M · segura: Mi jônio"E ^F ^G A B ^c ^d e |]
+"_G7M · colorida: Mi lídio"E ^F ^G ^A B ^c ^d e |]
+%
+"_C7M · segura: Lá lídio""^c. 4-7: II-V-I em Mi menor"A B ^c ^d e ^f ^g a |]
+"_C7M · colorida: Dó♯ pentatônica menor"^C E ^F ^G B ^c |]
+"_F#m7b5 · segura: Ré♯ lócrio"^D E ^F ^G A B ^c ^d |]
+"_F#m7b5 · colorida: Ré♯ lócrio 2"^D ^E ^F ^G A B ^c ^d |]
+"_B7(♭13) · segura: Sol♯ mixolídio b13"^G ^A ^B ^c ^d e ^f ^g |]
+"_B7(♭13) · colorida: Sol♯ mixolídio b9 b13"^G A ^B ^c ^d e ^f ^g |]
+"_B7(♭13) · tensão: Sol♯ alterada"^G A B c d e ^f ^g |]
+"_Em7(9) · segura: Dó♯ eólio"^C ^D E ^F ^G A B ^c |]
+"_Em7(9) · colorida: Dó♯ dórico"^C ^D E ^F ^G ^A B ^c |]
+"_Em7(9) · tensão: Dó♯ blues"^C E ^F G ^G B ^c |]
+%
+"_E7(♯9) · segura: Dó♯ dominante diminuta""^c. 8: E7(#9) volta para o Am7"^C D E F G ^G ^A B ^c |]
+"_E7(♯9) · colorida: Dó♯ alterada"^C D E F G A B ^c |]
+"_E7(♯9) · tensão: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+%
+"_Eb7(♯11) · segura: Dó lídio b7""^c. 22-24: descida cromática até C7M"C D E ^F G A _B c |]
+"_Eb7(♯11) · colorida: Dó tons inteiros"C D E ^F ^G ^A c |]
+"_Dm7 · segura: Si dórico"B ^c d e ^f ^g a b |]
+"_Db7(♯11) · segura: Si♭ lídio b7"_B c d e f g _a _b |]
+"_Db7(♯11) · colorida: Lá♯ alterada"^A B ^c d e ^f ^g ^a |]
+"_C7M · segura: Lá lídio"A B ^c ^d e ^f ^g a |]
+"_C7M · colorida: Lá jônio"A B ^c d e ^f ^g a |]
+
+X:3
+T:Autumn Leaves - escalas de improviso
+T:Sax Tenor (Bb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am7(9) · segura: Si dórico""^c. 1-3: II-V-I em Sol maior"B ^c d e ^f ^g a b |]
+"_Am7(9) · colorida: Si pentatônica menor"B d e ^f a b |]
+"_D7(9∕13) · segura: Mi mixolídio"E ^F ^G A B ^c d e |]
+"_D7(9∕13) · colorida: Mi lídio b7"E ^F ^G ^A B ^c d e |]
+"_D7(9∕13) · tensão: Mi dominante diminuta"E F G ^G ^A B ^c d e |]
+"_G7M · segura: Lá jônio"A B ^c d e ^f ^g a |]
+"_G7M · colorida: Lá lídio"A B ^c ^d e ^f ^g a |]
+%
+"_C7M · segura: Ré lídio""^c. 4-7: II-V-I em Mi menor"D E ^F ^G A B ^c d |]
+"_C7M · colorida: Fá♯ pentatônica menor"^F A B ^c e ^f |]
+"_F#m7b5 · segura: Sol♯ lócrio"^G A B ^c d e ^f ^g |]
+"_F#m7b5 · colorida: Sol♯ lócrio 2"^G ^A B ^c d e ^f ^g |]
+"_B7(♭13) · segura: Dó♯ mixolídio b13"^C ^D ^E ^F ^G A B ^c |]
+"_B7(♭13) · colorida: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_B7(♭13) · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+"_Em7(9) · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Em7(9) · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+"_Em7(9) · tensão: Fá♯ blues"^F A B c ^c e ^f |]
+%
+"_E7(♯9) · segura: Fá♯ dominante diminuta""^c. 8: E7(#9) volta para o Am7"^F G A ^A c ^c ^d e ^f |]
+"_E7(♯9) · colorida: Fá♯ alterada"^F G A _B c d e ^f |]
+"_E7(♯9) · tensão: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+%
+"_Eb7(♯11) · segura: Fá lídio b7""^c. 22-24: descida cromática até C7M"F G A B c d _e f |]
+"_Eb7(♯11) · colorida: Fá tons inteiros"F G A B _d _e f |]
+"_Dm7 · segura: Mi dórico"E ^F G A B ^c d e |]
+"_Db7(♯11) · segura: Mi♭ lídio b7"_E F G A _B c _d _e |]
+"_Db7(♯11) · colorida: Ré♯ alterada"^D E ^F G A B ^c ^d |]
+"_C7M · segura: Ré lídio"D E ^F ^G A B ^c d |]
+"_C7M · colorida: Ré jônio"D E ^F G A B ^c d |]
