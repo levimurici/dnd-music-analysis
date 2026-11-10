@@ -17,8 +17,7 @@ escalas contra as notas da cifra e da melodia.
 ```bash
 git clone https://github.com/levimurici/dnd-music-analysis
 cd dnd-music-analysis
-pip install -r requirements.txt   # music21 (só para a transposição)
-npm install                       # abcjs, marked e Playwright + Chromium (PDFs)
+bash scripts/setup.sh             # music21 + abcjs, marked e Playwright (em paralelo; pula o que já existe)
 python scripts/verificar.py       # confere as músicas de exemplo
 claude                            # abre o Claude Code na pasta
 ```
@@ -83,8 +82,8 @@ python scripts/verificar.py [x]                                      # conferên
 
 - Alto = 6ª maior acima; tenor = 9ª maior acima. Cifras ficam em concerto.
 - `analise.py` e `verificar.py` são Python puro; `sax_transpose.py` precisa do `music21`.
-- Os PDFs usam Playwright/Chromium. Se o Chromium não puder ser baixado, aponte para um Chrome
-  instalado: `export CHROMIUM_PATH="/caminho/do/chrome"`.
+- Os PDFs usam Playwright/Chromium, detectado sozinho (`scripts/chromium.js`): se já houver um Chromium/Chrome
+  no sistema, nenhum é baixado. Para forçar um caminho: `export CHROMIUM_PATH="/caminho/do/chrome"`.
 - Os `.abc` podem ser abertos em https://editor.drawthedots.com/.
 
 ## Pastas

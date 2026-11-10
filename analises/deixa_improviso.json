@@ -1,0 +1,265 @@
+{
+ "trechos": [
+  {
+   "titulo": "c. 1-6: Am7 abre e a frase cai em Dó maior (com desvio para o IV)",
+   "idx": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "opcoes": [
+    {
+     "idx": 0,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 0,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    },
+    {
+     "idx": 1,
+     "nivel": "segura",
+     "escala": "F lídio"
+    },
+    {
+     "idx": 2,
+     "nivel": "segura",
+     "escala": "G mixolídio"
+    },
+    {
+     "idx": 3,
+     "nivel": "segura",
+     "escala": "G mixolídio b13"
+    },
+    {
+     "idx": 3,
+     "nivel": "tensão",
+     "escala": "G alterada"
+    },
+    {
+     "idx": 4,
+     "nivel": "segura",
+     "escala": "C jônio"
+    },
+    {
+     "idx": 4,
+     "nivel": "colorida",
+     "escala": "C lídio"
+    },
+    {
+     "idx": 5,
+     "nivel": "segura",
+     "escala": "G dórico"
+    },
+    {
+     "idx": 6,
+     "nivel": "segura",
+     "escala": "C mixolídio"
+    },
+    {
+     "idx": 6,
+     "nivel": "colorida",
+     "escala": "C lídio b7"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 7-11: Fá maior vira bVI e o II-V-I menor volta para Lá",
+   "idx": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "opcoes": [
+    {
+     "idx": 7,
+     "nivel": "segura",
+     "escala": "F lídio"
+    },
+    {
+     "idx": 8,
+     "nivel": "segura",
+     "escala": "D dórico"
+    },
+    {
+     "idx": 8,
+     "nivel": "colorida",
+     "escala": "D eólio"
+    },
+    {
+     "idx": 9,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 9,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    },
+    {
+     "idx": 10,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 10,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 12-16 (casa 1): bVI7M - V7 - Im",
+   "idx": [
+    11,
+    12,
+    13
+   ],
+   "opcoes": [
+    {
+     "idx": 11,
+     "nivel": "segura",
+     "escala": "F lídio"
+    },
+    {
+     "idx": 12,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 12,
+     "nivel": "tensão",
+     "escala": "E dominante diminuta"
+    },
+    {
+     "idx": 13,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 13,
+     "nivel": "colorida",
+     "escala": "A pentatônica menor"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 17-20: Mi menor tonicizado (\"deixa, deixa\")",
+   "idx": [
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "opcoes": [
+    {
+     "idx": 14,
+     "nivel": "segura",
+     "escala": "E eólio"
+    },
+    {
+     "idx": 14,
+     "nivel": "colorida",
+     "escala": "E dórico"
+    },
+    {
+     "idx": 15,
+     "nivel": "segura",
+     "escala": "B mixolídio b9 b13"
+    },
+    {
+     "idx": 16,
+     "nivel": "segura",
+     "escala": "B mixolídio b9 b13"
+    },
+    {
+     "idx": 16,
+     "nivel": "tensão",
+     "escala": "B alterada"
+    },
+    {
+     "idx": 18,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 18,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 21-33 (casa 2 e final): V7/V, diminuto e cadência final",
+   "idx": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "opcoes": [
+    {
+     "idx": 19,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 20,
+     "nivel": "segura",
+     "escala": "B mixolídio b9 b13"
+    },
+    {
+     "idx": 20,
+     "nivel": "colorida",
+     "escala": "B mixolídio"
+    },
+    {
+     "idx": 21,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 21,
+     "nivel": "tensão",
+     "escala": "E dominante diminuta"
+    },
+    {
+     "idx": 23,
+     "nivel": "segura",
+     "escala": "F# diminuta tom-semitom"
+    },
+    {
+     "idx": 24,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 24,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    },
+    {
+     "idx": 25,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 25,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    }
+   ]
+  }
+ ]
+}

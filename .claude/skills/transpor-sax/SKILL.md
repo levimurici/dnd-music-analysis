@@ -7,11 +7,11 @@ description: Transpõe uma partitura (PDF, foto ou ABC) em tom de concerto para 
 
 Responda em português. Rode tudo da raiz do repositório (ver `CLAUDE.md`).
 
-## Preparar o ambiente (se faltar)
+## Preparar o ambiente (sempre, primeiro passo; instantâneo se já estiver pronto)
 ```bash
-pip install -r requirements.txt
-npm install
+bash scripts/setup.sh
 ```
+Pedido só de transposição: faça só este fluxo (leitura + transposição + PDFs), sem análise.
 
 ## 1. Ler a partitura -> `musicas/<nome>_concerto.abc`
 Se o ABC de concerto já existe, pule. Se a entrada é PDF/foto (normalmente em `originais/`), **delegue ao subagente `leitor-partitura`**

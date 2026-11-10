@@ -13,6 +13,7 @@ Defina `<nome>` em snake_case sem acento a partir do título. Se já existem arq
 primeira etapa que falta em vez de refazer tudo (veja a tabela de arquivos do `CLAUDE.md`).
 
 ## Etapas (em ordem; não pule checagens)
+0. **Ambiente** — `bash scripts/setup.sh` (instala em paralelo enquanto você lê a partitura: rode em segundo plano).
 1. **Leitura** — sem `_concerto.abc`: chame o subagente `leitor-partitura` com o arquivo e o `<nome>`.
 2. **Transposição** — skill `transpor-sax`, passo 2 (`musicas/<nome>_sax.abc` + `partituras/<nome>_{concerto,alto,tenor}.pdf`).
 3. **Análise** — skill `analise-harmonica` completa: `analises/<nome>_resumo.txt`, `analises/<nome>_funcional.json` com `checar` N/N, `estudos/<nome>_estudo.md` seções 1–3 e 5.

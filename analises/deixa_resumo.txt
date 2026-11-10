@@ -1,0 +1,38 @@
+Deixa | M:2/4 K:Am | 33 compassos
+casas: c.12=casa 1, c.21=casa 2
+tom geral: Am 0.849, C 0.767, Em 0.754
+tom por janela: c.1-4 C 0.947 | c.5-8 Am 0.787 | c.9-12 Am 0.8 | c.13-16 C 0.851 | c.17-20 Em 0.797 | c.21-24 E 0.735 | c.25-28 C 0.759 | c.29-32 Em 0.754 | c.33-33 A 0.684
+cifras (idx c.tempo cifra = tipo +tensões /baixo):
+  #0 c.1.1 Am7=m7 ; #1 c.3.1 Fmaj7=7M ; #2 c.4.1 G7(13)=7+9 ; #3 c.4.2 G7(♭13)=7+8
+  #4 c.5.1 Cmaj7=7M ; #5 c.6.1 Gm7=m7 ; #6 c.6.2 C7(9)=7+2 ; #7 c.7.1 Fmaj7=7M
+  #8 c.9.1 Dm7=m7 ; #9 c.10.1 E7(♭13)=7+8 ; #10 c.11.1 Am7=m7 ; #11 c.13.1 Fmaj7=7M
+  #12 c.14.1 E7(♭9)=7+1 ; #13 c.15.1 Am7=m7 ; #14 c.17.1 Em7=m7 ; #15 c.18.1 B7(4)=7sus4
+  #16 c.18.2 B7=7 ; #17 c.19.1 Em7=m7 ; #18 c.20.1 E7(♭13)=7+8 ; #19 c.21.1 Am7=m7
+  #20 c.22.1 B7=7 ; #21 c.24.1 E7(♭9)=7+1 ; #22 c.26.1 Am7=m7 ; #23 c.28.1 F#°=°7
+  #24 c.30.1 E7(♭13)=7+8 ; #25 c.32.1 Am7=m7
+melodia por compasso: |1: C5 |2: C4 |3: A4 C5 |4: B4 A4 G4 F4 E4 |5: F4 G4 |7: A4 |8: A3 |9: F4 A4 |10: G4 F4 E4 D4 C4 |11: D4 E4 |12: A4 |13: E4 C4 A3 C4 |14: A3 C4 E4 C4 |15: A3 C4 E4 C4 |16: A3 C4 E4 G4 |17: E4 |18: A4 F#4 |19: B4 E4 |20: C5 F4 |21: E4 |22: D#4 |23: B3 |24: D4 E4 |25: F4 E4 D4 E4 D4 |27: C4 |28: C4 |29: F#3 |30: B3 C4 |31: D4 C4 B3 E4 B3 |33: A3
+notas que não são nota do acorde, ou sustentadas sobre troca de cifra (c.tempo nota intervalo/cifra força):
+  c.4.1+1/2 A4 9/G7(13) td contratempo
+  c.4.1+3/4 G4 1/G7(13)  contratempo -> vira 1 de G7(♭13) (c.4)
+  c.4.2+3/4 E4 13/G7(♭13) td contratempo -> vira 3 de Cmaj7 (c.5)
+  c.5.1+1/4 F4 11/Cmaj7 FORA contratempo
+  c.5.1+3/4 G4 5/Cmaj7  contratempo -> vira 1 de Gm7 (c.6), vira 5 de C7(9) (c.6)
+  c.10.1 G4 #9/E7(♭13) td forte
+  c.10.1+1/2 F4 b9/E7(♭13) td contratempo
+  c.10.2+3/4 C4 b13/E7(♭13) T contratempo -> vira b3 de Am7 (c.11)
+  c.11.1+1/4 D4 11/Am7 td contratempo
+  c.13.2+1/2 C4 5/Fmaj7  contratempo -> vira b13 de E7(♭9) (c.14)
+  c.14.1+1/2 A3 11/E7(♭9) FORA contratempo
+  c.14.1+3/4 C4 b13/E7(♭9) td contratempo
+  c.14.2+3/4 C4 b13/E7(♭9) td contratempo -> vira b3 de Am7 (c.15)
+  c.16.2+3/4 G4 b7/Am7  contratempo -> vira b3 de Em7 (c.17)
+  c.20.1 C5 b13/E7(♭13) T forte
+  c.20.2 F4 b9/E7(♭13) td fraco
+  c.25.1 F4 b9/E7(♭9) T forte
+  c.25.2+3/4 D4 b7/E7(♭9)  contratempo -> vira 11 de Am7 (c.26)
+  c.30.2+1/2 C4 b13/E7(♭13) T contratempo
+  c.31.1+1/2 C4 b13/E7(♭13) T contratempo
+  c.31.2+3/4 B3 5/E7(♭13)  contratempo -> vira 9 de Am7 (c.32)
+fora da armadura: c.18.2 F#4, c.22.1 D#4, c.29.1 F#3
+extensão: F#3-C5 (18 st); culminante C5 c.1.1
+saltos >= 6ª: c. 1 C5->C4 (-12), c. 2 C4->A4 (+9), c. 7 A4->A3 (-12)
