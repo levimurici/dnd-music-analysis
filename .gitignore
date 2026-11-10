@@ -3,8 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 # fatos completos são recalculáveis com `python scripts/analise.py fatos`
-musicas/*_fatos.json
-# arquivos que o usuário coloca para leitura (PDF/foto originais)
-partituras/*
-!partituras/README.md
+analises/*_fatos.json
+# PDF/foto original que o Levi coloca para leitura (pode ter direitos autorais)
+originais/*
+!originais/README.md
 .claude/settings.local.json

@@ -7,10 +7,17 @@
       "Bash(pip install -r requirements.txt)",
       "Bash(npm install)",
       "Bash(pdftoppm *)",
+      "Read(originais/**)",
       "Read(musicas/**)",
+      "Read(analises/**)",
+      "Read(estudos/**)",
       "Read(partituras/**)",
       "Edit(musicas/**)",
-      "Write(musicas/**)"
+      "Write(musicas/**)",
+      "Edit(analises/**)",
+      "Write(analises/**)",
+      "Edit(estudos/**)",
+      "Write(estudos/**)"
     ]
   }
 }

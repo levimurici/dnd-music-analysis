@@ -153,7 +153,7 @@ O script mostra o C ligado do fim de um compasso para o começo do seguinte (c. 
 
 ## Um caminho de estudo
 
-**Anote a partitura à mão.** Imprima `canto_de_ossanha_sax.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
+**Anote a partitura à mão.** Imprima a parte do seu sax, `partituras/canto_de_ossanha_alto.pdf` ou `canto_de_ossanha_tenor.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
 
 - no ciclo da parte A, o baixo descendo (C – B♭ – A – A♭) e o grau e a função de cada acorde; ao lado do A°, "= D7(♭9)";
 - sobre a melodia, o papel do C em cada acorde (1, 9 contra o baixo, 3ª menor, 3ª maior);

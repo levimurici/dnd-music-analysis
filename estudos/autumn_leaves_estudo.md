@@ -173,7 +173,7 @@ A melodia é, ao mesmo tempo, a condução de vozes da harmonia. Isso só funcio
 
 ## Um caminho de estudo
 
-**Anote a partitura à mão.** Imprima `autumn_leaves_sax.pdf` (ou abra num app de anotação no tablet) e, lendo este estudo seção por seção, escreva você mesmo:
+**Anote a partitura à mão.** Imprima a parte do seu sax, `partituras/autumn_leaves_alto.pdf` ou `autumn_leaves_tenor.pdf` (ou abra num app de anotação no tablet) e, lendo este estudo seção por seção, escreva você mesmo:
 
 - embaixo de cada cifra, o grau e a função (ex.: "IIm7 · S", "V7/IVm · D");
 - em cima, as regiões tonais: Sol maior nos c. 1–3 e 16–18, Dó nos c. 22–24, Mi menor no resto;

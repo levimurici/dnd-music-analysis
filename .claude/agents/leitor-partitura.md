@@ -23,5 +23,5 @@ nº de compassos, se tem cifras e qualquer trecho de leitura duvidosa (com compa
 - Sem cifras no original: não invente; isso é tarefa da análise (`_sugestao.abc`).
 
 ## Conferência obrigatória antes de responder
-1. Soma dos tempos de cada compasso bate com o `M:` (`python scripts/analise.py resumo musicas/<nome>_concerto.abc` acusa erros de leitura; apague o `_resumo.txt` se não for pedido).
-2. Renderize (`node scripts/render_pdf.js musicas/<nome>_concerto.abc /tmp/<nome>_conf.pdf`), converta em PNG e compare compasso a compasso com o original. Corrija até bater.
+1. Soma dos tempos de cada compasso bate com o `M:` (`python scripts/verificar.py <nome>` acusa compasso com duração errada e cifra não reconhecida; ignore os avisos de arquivos que ainda faltam).
+2. Renderize (`node scripts/render_pdf.js musicas/<nome>_concerto.abc partituras/<nome>_concerto.pdf`), converta em PNG e compare compasso a compasso com o original. Corrija até bater.

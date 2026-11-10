@@ -5,9 +5,9 @@ local (Claude Code ou qualquer agente que leia `CLAUDE.md`/`AGENTS.md`).
 
 Você entrega uma lead sheet em tom de concerto (PDF, foto ou ABC) e o agente devolve:
 
-- a partitura transposta para **sax alto (E♭)** e **sax tenor (B♭)**, com as cifras em concerto (`_sax.pdf`);
-- um **estudo explicado** com análise tonal, funcional e melódica (`_estudo.pdf`);
-- **alternativas de improvisação** por trecho e a folha de escalas escrita para alto e tenor (`_escalas.pdf`).
+- a partitura transposta para **sax alto (E♭)** e **sax tenor (B♭)**, com as cifras em concerto, um PDF por instrumento em `partituras/` (`_concerto.pdf`, `_alto.pdf`, `_tenor.pdf`);
+- um **estudo explicado** com análise tonal, funcional e melódica (`estudos/<nome>_estudo.pdf`);
+- **alternativas de improvisação** por trecho e a folha de escalas escrita para alto e tenor (`partituras/<nome>_escalas_alto.pdf`, `_tenor.pdf`, `_concerto.pdf`).
 
 Toda afirmação do estudo é conferida por script (sem IA): graus, dominantes secundários, SubV, resolução e
 escalas contra as notas da cifra e da melodia.
@@ -25,7 +25,7 @@ claude                            # abre o Claude Code na pasta
 
 Depois é só pedir em linguagem natural:
 
-> Faça o fluxo completo da partitura `partituras/garota_de_ipanema.pdf`.
+> Faça o fluxo completo da partitura `originais/garota_de_ipanema.pdf`.
 
 > Transpõe o Canto de Ossanha só para tenor, uma oitava abaixo.
 
@@ -39,19 +39,19 @@ No Claude Code as skills também podem ser chamadas direto: `/estudo-completo`, 
 ## Como o fluxo funciona
 
 ```
-partitura (PDF/foto) ─▶ leitor-partitura (subagente) ─▶ musicas/<nome>_concerto.abc
+originais/ (PDF/foto) ─▶ leitor-partitura (subagente) ─▶ musicas/<nome>_concerto.abc
                                                               │
         ┌─────────────────────────────────────────────────────┼──────────────────────────┐
         ▼                                                     ▼                          ▼
   transpor-sax                                      analise-harmonica            improvisacao-sax
   sax_transpose.py + render_pdf.js                  analise.py resumo/checar     analise.py escalas
-  → _sax.abc / _sax.pdf                             → _funcional.json             → _improviso.json
-                                                    → _estudo.md (1–3, 5)         → _escalas.pdf, seção 4
+  → musicas/_sax.abc                                → analises/_funcional.json    → analises/_improviso.json
+  → partituras/_concerto|_alto|_tenor.pdf          → estudos/_estudo.md (1–3, 5) → partituras/_escalas_*.pdf
                                                               │
                                                               ▼
                                          revisor-estudo (subagente) + verificar.py
                                                               ▼
-                                                        _estudo.pdf
+                                                 estudos/_estudo.pdf
 ```
 
 | Peça | Onde | Papel |
@@ -71,12 +71,13 @@ Outros agentes (Codex, Cursor, Gemini CLI…) leem `AGENTS.md`, que aponta para 
 
 ```bash
 python scripts/sax_transpose.py musicas/x_concerto.abc -o musicas/x_sax.abc [--inst alto tenor] [--octave-tenor -1]
-node   scripts/render_pdf.js    musicas/x_sax.abc                    # ABC → PDF (uma música por página)
-python scripts/analise.py resumo  musicas/x_concerto.abc             # fatos compactos (o que o agente lê)
-python scripts/analise.py fatos   musicas/x_concerto.abc             # fatos completos (JSON grande)
-python scripts/analise.py checar  musicas/x_concerto.abc musicas/x_funcional.json
-python scripts/analise.py escalas musicas/x_concerto.abc musicas/x_improviso.json
-node   scripts/render_estudo.js musicas/x_estudo.md                  # estudo → PDF A4
+node   scripts/render_pdf.js    musicas/x_sax.abc --separar partituras/   # → x_concerto.pdf, x_alto.pdf, x_tenor.pdf
+node   scripts/render_pdf.js    musicas/x.abc [saida.pdf]                 # um PDF só, uma música (X:) por página
+python scripts/analise.py resumo  musicas/x_concerto.abc             # → analises/x_resumo.txt (o que o agente lê)
+python scripts/analise.py fatos   musicas/x_concerto.abc             # → analises/x_fatos.json (grande)
+python scripts/analise.py checar  musicas/x_concerto.abc analises/x_funcional.json
+python scripts/analise.py escalas musicas/x_concerto.abc analises/x_improviso.json   # → musicas/x_escalas.abc
+node   scripts/render_estudo.js estudos/x_estudo.md                  # → estudos/x_estudo.pdf (A4)
 python scripts/verificar.py [x]                                      # conferência de tudo
 ```
 
@@ -94,8 +95,11 @@ CLAUDE.md, AGENTS.md      instruções do agente
 .claude/agents/           subagentes
 .claude/settings.json     permissões para os scripts rodarem sem pedir confirmação
 scripts/                  transposição, análise, checagem, renderização
-musicas/                  arquivos de cada música (<nome>_concerto.abc, _sax.pdf, _estudo.md…)
-partituras/               onde você coloca o PDF/foto original (não vai para o git)
+originais/                onde você coloca o PDF/foto original (não vai para o git)
+musicas/                  só os .abc (<nome>_concerto, _sax, _escalas, _sugestao)
+partituras/               PDFs gerados, um por instrumento (<nome>_concerto/_alto/_tenor.pdf, _escalas_*.pdf)
+estudos/                  <nome>_estudo.md e <nome>_estudo.pdf
+analises/                 dados das análises (_resumo.txt, _funcional.json, _improviso.json)
 glossario.md / .pdf       teoria e convenções, escritas uma vez só
 exemplos/                 arquivos de teste dos scripts
 ```

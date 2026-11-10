@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Converte um estudo .md em PDF A4 legível em tablet e bom para imprimir.
-// Uso: node scripts/render_estudo.js musicas/x_estudo.md [saida.pdf]
+// Uso: node scripts/render_estudo.js estudos/x_estudo.md [saida.pdf]   (padrão: mesmo nome, .pdf)
 // Requer: npm install (na raiz do repositório)
 const fs = require('fs');
 const { marked } = require('marked');

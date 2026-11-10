@@ -119,7 +119,7 @@ Todos os 19 graus passaram na checagem automática **sobre a harmonia sugerida**
 
 ## Um caminho de estudo
 
-**Anote a partitura à mão.** Imprima `assum_preto_sax.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
+**Anote a partitura à mão.** Imprima a parte do seu sax, `partituras/assum_preto_alto.pdf` ou `assum_preto_tenor.pdf` (ou abra num app de anotação) e, lendo este estudo, escreva você mesmo:
 
 - a lápis, as cifras sugeridas sobre cada compasso, e o grau e a função embaixo. Se discordar de alguma, escreva a sua: aqui a harmonia é uma escolha;
 - um círculo nos C♯ (c. 7, 16, 17) e no G♯ (c. 23), com o acorde que cada um pede;
