@@ -1,0 +1,10 @@
+Assum Preto | M:2/4 K:Am | 29 compassos
+casas: c.28=casa 1, c.29=casa 2
+tom geral: Am 0.68, A 0.598, Em 0.542
+tom por janela: c.1-4 Em 0.669 | c.5-8 A 0.697 | c.9-12 C 0.691 | c.13-16 D 0.551 | c.17-20 Dm 0.607 | c.21-24 D 0.639 | c.25-28 Am 0.901 | c.29-29 Am 0.809
+cifras (idx c.tempo cifra = tipo +tensões /baixo):
+melodia por compasso: |1: A3 C4 |2: E4 A4 |3: E4 C4 E4 |5: A3 C4 |6: E4 A4 |7: E4 C#4 D4 |9: D4 D4 E4 |10: F4 G4 |11: F4 E4 D4 |12: C4 E4 |13: E4 D4 C4 |14: B3 D4 |15: D4 C4 D4 |16: E4 D4 C#4 |17: A3 B3 C#4 |18: D4 F4 |19: F4 E4 D4 |20: C4 E4 |21: E4 D4 C4 |22: B3 D4 |23: C4 G#3 B3 |24: A3 A4 E4 |25: G4 F4 D4 B3 |26: F4 E4 C4 A3 |27: E4 D4 B3 C4 |28: A3 A4 E4 |29: A3 A3 C4
+notas que não são nota do acorde, ou sustentadas sobre troca de cifra (c.tempo nota intervalo/cifra força):
+fora da armadura: c.7.2 C#4, c.16.2 C#4, c.17.2 C#4, c.23.2 G#3
+extensão: G#3-A4 (13 st); culminante A4 c.2.2
+saltos >= 6ª: c. 24 A3->A4 (+12), c. 28 A3->A4 (+12)

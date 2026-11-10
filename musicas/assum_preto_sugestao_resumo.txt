@@ -1,0 +1,30 @@
+Assum Preto (harmonia sugerida) | M:2/4 K:Am | 29 compassos
+casas: c.28=casa 1, c.29=casa 2
+tom geral: Am 0.822, C 0.642, Em 0.603
+tom por janela: c.1-4 Am 0.816 | c.5-8 Dm 0.788 | c.9-12 G 0.693 | c.13-16 G 0.692 | c.17-20 Dm 0.811 | c.21-24 Am 0.641 | c.25-28 Am 0.838 | c.29-29 Am 0.927
+cifras (idx c.tempo cifra = tipo +tensões /baixo):
+  #0 c.2.1 Am=m ; #1 c.7.1 A7=7 ; #2 c.8.1 Dm=m ; #3 c.10.1 G7=7
+  #4 c.12.1 C=maior ; #5 c.13.1 Am=m ; #6 c.14.1 G7=7 ; #7 c.15.1 C=maior
+  #8 c.16.1 A7=7 ; #9 c.18.1 Dm=m ; #10 c.20.1 C=maior ; #11 c.21.1 Am=m
+  #12 c.22.1 E7=7 ; #13 c.24.1 Am=m ; #14 c.25.1 G7=7 ; #15 c.26.1 F7M=7M
+  #16 c.27.1 E7=7 ; #17 c.28.1 Am=m ; #18 c.29.1 Am=m
+melodia por compasso: |1: A3 C4 |2: E4 A4 |3: E4 C4 E4 |5: A3 C4 |6: E4 A4 |7: E4 C#4 D4 |9: D4 D4 E4 |10: F4 G4 |11: F4 E4 D4 |12: C4 E4 |13: E4 D4 C4 |14: B3 D4 |15: D4 C4 D4 |16: E4 D4 C#4 |17: A3 B3 C#4 |18: D4 F4 |19: F4 E4 D4 |20: C4 E4 |21: E4 D4 C4 |22: B3 D4 |23: C4 G#3 B3 |24: A3 A4 E4 |25: G4 F4 D4 B3 |26: F4 E4 C4 A3 |27: E4 D4 B3 C4 |28: A3 A4 E4 |29: A3 A3 C4
+notas que não são nota do acorde, ou sustentadas sobre troca de cifra (c.tempo nota intervalo/cifra força):
+  c.7.2+1/2 D4 11/A7 FORA contratempo -> vira 1 de Dm (c.8)
+  c.9.2+1/2 E4 9/Dm td contratempo
+  c.11.2 E4 13/G7 td fraco
+  c.12.2 E4 3/C  fraco -> vira 5 de Am (c.13)
+  c.13.2 D4 11/Am td fraco
+  c.14.2 D4 5/G7  fraco -> vira 9 de C (c.15)
+  c.15.1+1/2 D4 9/C td contratempo
+  c.15.2+1/2 D4 9/C td contratempo
+  c.16.2 D4 11/A7 FORA fraco
+  c.17.2 B3 9/A7 td fraco
+  c.19.2 E4 9/Dm td fraco
+  c.20.2 E4 3/C  fraco -> vira 5 de Am (c.21)
+  c.21.2 D4 11/Am td fraco
+  c.23.1+1/2 C4 b13/E7 td contratempo
+  c.27.2+1/2 C4 b13/E7 td contratempo
+fora da armadura: c.7.2 C#4, c.16.2 C#4, c.17.2 C#4, c.23.2 G#3
+extensão: G#3-A4 (13 st); culminante A4 c.2.2
+saltos >= 6ª: c. 24 A3->A4 (+12), c. 28 A3->A4 (+12)

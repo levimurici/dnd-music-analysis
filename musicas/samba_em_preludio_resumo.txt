@@ -1,0 +1,39 @@
+Samba em prelúdio | M:C| K:Am | 20 compassos
+casas: c.12=casa 1, c.17=casa 2
+tom geral: Am 0.836, Dm 0.656, F 0.593
+tom por janela: c.1-4 F 0.611 | c.5-8 Dm 0.706 | c.9-12 Am 0.634 | c.13-16 Am 0.586 | c.17-20 Am 0.812
+cifras (idx c.tempo cifra = tipo +tensões /baixo):
+  #0 c.1.1 Am=m ; #1 c.2.1 F/A=maior/A ; #2 c.3.1 G#°=°7 ; #3 c.5.1 G°=°7
+  #4 c.6.1 A7(♭13)=7+8 ; #5 c.7.1 Dm=m ; #6 c.8.1 Dm/C=m/C ; #7 c.9.1 Bø=m7(b5)
+  #8 c.10.1 E7(♭9)=7+1 ; #9 c.11.1 Am=m ; #10 c.12.1 Am/G=m/G ; #11 c.13.1 F#°=°7
+  #12 c.15.1 Dm6/F=m6+9/F ; #13 c.16.1 E7(♭13)=7+8 ; #14 c.17.1 Am/G=m/G ; #15 c.18.1 F7=7
+  #16 c.19.1 Bø=m7(b5) ; #17 c.19.2 E7(♭9)=7+1 ; #18 c.20.1 Am7=m7
+melodia por compasso: |1: A4 A4 C5 E5 |2: F5 E5 G#4 |3: B4 D5 |4: F5 E5 G4 |5: A#4 C#5 |6: F5 E5 F4 |7: A4 C5 |8: E5 D5 F4 |9: G#4 B4 |10: E5 D5 E4 |11: G4 C5 |12: D5 C5 D#4 |13: F#4 A4 |14: C5 B4 D4 |15: F4 G#4 |16: C5 |17: D5 C5 D5 |18: D#5 D#5 D#5 D5 C5 D5 |19: D5 C5 A4
+notas que não são nota do acorde, ou sustentadas sobre troca de cifra (c.tempo nota intervalo/cifra força):
+  c.2.2+1/4 E5 7M/F/A FORA contratempo
+  c.2.2+3/4 G#4 #9/F/A td contratempo -> vira 1 de G#° (c.3)
+  c.4.2+1/4 E5 b13/G#° td contratempo
+  c.4.2+3/4 G4 7M/G#° FORA contratempo -> vira 1 de G° (c.5)
+  c.6.1 F5 b13/A7(♭13) T forte
+  c.6.2+3/4 F4 b13/A7(♭13) T contratempo -> vira b3 de Dm (c.7)
+  c.7.2+2/3 C5 b7/Dm FORA contratempo
+  c.8.1 E5 9/Dm/C td forte
+  c.8.2+3/4 F4 b3/Dm/C  contratempo -> vira b5 de Bø (c.9)
+  c.9.2+1/3 G#4 13/Bø td contratempo
+  c.10.2+3/4 E4 1/E7(♭9)  contratempo -> vira 5 de Am (c.11)
+  c.11.2+1/3 G4 b7/Am FORA contratempo
+  c.12.1 D5 11/Am/G td forte
+  c.12.2+3/4 D#4 #11/Am/G td contratempo -> vira 7° de F#° (c.13)
+  c.14.2+1/4 B4 11/F#° td contratempo
+  c.14.2+3/4 D4 b13/F#° td contratempo -> vira 1 de Dm6/F (c.15)
+  c.15.2+2/3 G#4 #11/Dm6/F td contratempo
+  c.16.1 C5 b13/E7(♭13) T forte
+  c.17.1 D5 11/Am/G td forte
+  c.17.2+2/3 D5 11/Am/G td contratempo
+  c.18.2 D5 13/F7 td fraco
+  c.18.2+2/3 D5 13/F7 td contratempo
+  c.19.2+1/4 C5 b13/E7(♭9) td contratempo
+  c.19.2+3/4 A4 11/E7(♭9) FORA contratempo -> vira 1 de Am7 (c.20)
+fora da armadura: c.2.2 G#4, c.5.2 A#4, c.5.2 C#5, c.9.2 G#4, c.12.2 D#4, c.13.2 F#4, c.15.2 G#4, c.18.1 D#5, c.18.1 D#5, c.18.1 D#5
+extensão: D4-F5 (15 st); culminante F5 c.2.1
+saltos >= 6ª: c. 4 E5->G4 (-9), c. 6 E5->F4 (-11), c. 8 D5->F4 (-9), c. 10 D5->E4 (-10), c. 12 C5->D#4 (-9), c. 14 B4->D4 (-9)

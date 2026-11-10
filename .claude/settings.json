@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/*)",
+      "Bash(python3 scripts/*)",
+      "Bash(node scripts/*)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(npm install)",
+      "Bash(pdftoppm *)",
+      "Read(musicas/**)",
+      "Read(partituras/**)",
+      "Edit(musicas/**)",
+      "Write(musicas/**)"
+    ]
+  }
+}

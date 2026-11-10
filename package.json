@@ -1,0 +1,14 @@
+{
+  "name": "dnd-music-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renderização de ABC e estudos em PDF (abcjs + marked + Playwright/Chromium)",
+  "scripts": {
+    "postinstall": "playwright install chromium || echo 'Aviso: instale o Chromium com: npx playwright install chromium (ou defina CHROMIUM_PATH)'"
+  },
+  "dependencies": {
+    "abcjs": "6.4.4",
+    "marked": "12.0.2",
+    "playwright": "^1.47.0"
+  }
+}

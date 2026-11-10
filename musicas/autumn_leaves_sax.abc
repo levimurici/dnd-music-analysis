@@ -1,0 +1,47 @@
+X:1
+T:Autumn Leaves
+T:Concerto (C)
+C:Joseph Kosma / Johnny Mercer
+M:4/4
+L:1/8
+Q:1/4=120
+K:Em
+E2 F2 G2 |:!segno!"Am7(9)"c8- | "D7(9∕13)"c2 D2 E2 F2 | "G7M"B4 B4- |
+"C7M"B2 C2 D2 E2 | "F#m7b5"A8- | [1 "B7(♭13)"A2 B,2 ^C2 ^D2 | "Em7(9)"G8 |
+"E7(♯9)"z2 E2 F2 G2 :| [2 "B7(♭13)"z2 F2 A2 G2 | "Em7(9)""_Fine"E8- || E2 z2 ^D2 E2 |
+"F#m7b5"F2 B,2 F4- | "B7(♭13)"F2 F2 E2 F2 | "Em7(9)"G8- | G2 G2 F2 G2 |
+"Am7(9)"A8- | "D7(9∕13)"A2 D2 d2 c2 | "G7M"B8- | "C7M"B2 z2 _B2 =B2 |
+"F#m7b5"c2 c2 A2 A2 | "B7(♭13)"F6 c2 | "Em7"B4 "Eb7(♯11)"B4- | "Dm7"B6 "Db7(♯11)"E2 |
+"C7M"A6 G2 | "B7(♭13)"F4 G2 B,2 | "Em7(9)"E8 | "E7(♯9)""_D.S. al Fine"z2 E2 F2 G2 |]
+
+X:2
+T:Autumn Leaves
+T:Sax Alto (Eb)
+C:Joseph Kosma / Johnny Mercer
+M:4/4
+L:1/8
+Q:1/4=120
+K:C#m
+c2 d2 e2 |:!segno!"Am7(9)"a8- | "D7(9∕13)"a2 B2 c2 d2 | "G7M"g4 g4- |
+"C7M"g2 A2 B2 c2 | "F#m7b5"f8- | [1 "B7(♭13)"f2 G2 ^A2 ^B2 | "Em7(9)"e8 |
+"E7(♯9)"z2 c2 d2 e2 :| [2 "B7(♭13)"z2 d2 f2 e2 | "Em7(9)""_Fine"c8- || c2 z2 ^B2 c2 |
+"F#m7b5"d2 G2 d4- | "B7(♭13)"d2 d2 c2 d2 | "Em7(9)"e8- | e2 e2 d2 e2 |
+"Am7(9)"f8- | "D7(9∕13)"f2 B2 b2 a2 | "G7M"g8- | "C7M"g2 z2 =g2 ^g2 |
+"F#m7b5"a2 a2 f2 f2 | "B7(♭13)"d6 a2 | "Em7"g4 "Eb7(♯11)"g4- | "Dm7"g6 "Db7(♯11)"c2 |
+"C7M"f6 e2 | "B7(♭13)"d4 e2 G2 | "Em7(9)"c8 | "E7(♯9)""_D.S. al Fine"z2 c2 d2 e2 |]
+
+X:3
+T:Autumn Leaves
+T:Sax Tenor (Bb)
+C:Joseph Kosma / Johnny Mercer
+M:4/4
+L:1/8
+Q:1/4=120
+K:F#m
+F2 G2 A2 |:!segno!"Am7(9)"d8- | "D7(9∕13)"d2 E2 F2 G2 | "G7M"c4 c4- |
+"C7M"c2 D2 E2 F2 | "F#m7b5"B8- | [1 "B7(♭13)"B2 C2 ^D2 ^E2 | "Em7(9)"A8 |
+"E7(♯9)"z2 F2 G2 A2 :| [2 "B7(♭13)"z2 G2 B2 A2 | "Em7(9)""_Fine"F8- || F2 z2 ^E2 F2 |
+"F#m7b5"G2 C2 G4- | "B7(♭13)"G2 G2 F2 G2 | "Em7(9)"A8- | A2 A2 G2 A2 |
+"Am7(9)"B8- | "D7(9∕13)"B2 E2 e2 d2 | "G7M"c8- | "C7M"c2 z2 =c2 ^c2 |
+"F#m7b5"d2 d2 B2 B2 | "B7(♭13)"G6 d2 | "Em7"c4 "Eb7(♯11)"c4- | "Dm7"c6 "Db7(♯11)"F2 |
+"C7M"B6 A2 | "B7(♭13)"G4 A2 C2 | "Em7(9)"F8 | "E7(♯9)""_D.S. al Fine"z2 F2 G2 A2 |]

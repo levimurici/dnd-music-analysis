@@ -1,0 +1,115 @@
+{
+ "trechos": [
+  {
+   "titulo": "c. 1-8: Lá menor e A7 levando a Ré menor",
+   "idx": [
+    0,
+    1,
+    2
+   ],
+   "opcoes": [
+    {
+     "idx": 0,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 0,
+     "nivel": "colorida",
+     "escala": "A pentatônica menor"
+    },
+    {
+     "idx": 1,
+     "nivel": "segura",
+     "escala": "A mixolídio b9 b13"
+    },
+    {
+     "idx": 1,
+     "nivel": "colorida",
+     "escala": "A mixolídio"
+    },
+    {
+     "idx": 2,
+     "nivel": "segura",
+     "escala": "D dórico"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 9-15: passagem pelo relativo Dó maior",
+   "idx": [
+    3,
+    4
+   ],
+   "opcoes": [
+    {
+     "idx": 3,
+     "nivel": "segura",
+     "escala": "G mixolídio"
+    },
+    {
+     "idx": 4,
+     "nivel": "segura",
+     "escala": "C jônio"
+    },
+    {
+     "idx": 4,
+     "nivel": "colorida",
+     "escala": "C lídio"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 22-27: cadência e refrão (G7, F7M, E7, Am)",
+   "idx": [
+    12,
+    14,
+    15,
+    16,
+    17
+   ],
+   "opcoes": [
+    {
+     "idx": 12,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 12,
+     "nivel": "colorida",
+     "escala": "E dominante diminuta"
+    },
+    {
+     "idx": 14,
+     "nivel": "segura",
+     "escala": "G mixolídio"
+    },
+    {
+     "idx": 15,
+     "nivel": "segura",
+     "escala": "F lídio"
+    },
+    {
+     "idx": 16,
+     "nivel": "segura",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 16,
+     "nivel": "tensão",
+     "escala": "E alterada"
+    },
+    {
+     "idx": 17,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 17,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    }
+   ]
+  }
+ ]
+}

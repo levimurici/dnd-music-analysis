@@ -1,0 +1,18 @@
+X:1
+T:Teste em Mi
+M:3/4
+L:1/8
+%%score concert alto tenor
+K:E
+V:concert name="Concerto (C)" snm="C"
+K:E
+|:"E"E2 G2 B2 | "C#m7"c3 d e2 | [1 "F#7"^A6 :| [2 "B7"B6 ||
+"Emaj7"e4 d2 | "A6"c2 B2 A2 | "E"E6 |]
+V:alto name="Sax Alto (Eb)" snm="Alto"
+K:Db
+|:"E"d2 f2 a2 | "C#m7"b3 c' d'2 | [1 "F#7"=g6 :| [2 "B7"a6 ||
+"Emaj7"d'4 c'2 | "A6"b2 a2 g2 | "E"d6 |]
+V:tenor name="Sax Tenor (Bb)" snm="Ten."
+K:F#
+|:"E"f2 a2 c'2 | "C#m7"d'3 e' f'2 | [1 "F#7"^b6 :| [2 "B7"c'6 ||
+"Emaj7"f'4 e'2 | "A6"d'2 c'2 b2 | "E"f6 |]

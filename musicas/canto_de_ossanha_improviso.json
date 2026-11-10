@@ -1,0 +1,142 @@
+{
+ "trechos": [
+  {
+   "titulo": "c. 1-32: vamp em Dó menor (Cm, Cm/Bb, A°, Ab6)",
+   "idx": [
+    0,
+    2,
+    3
+   ],
+   "opcoes": [
+    {
+     "idx": 0,
+     "nivel": "segura",
+     "escala": "C eólio"
+    },
+    {
+     "idx": 0,
+     "nivel": "colorida",
+     "escala": "C dórico"
+    },
+    {
+     "idx": 0,
+     "nivel": "colorida",
+     "escala": "C blues"
+    },
+    {
+     "idx": 2,
+     "nivel": "segura",
+     "escala": "A diminuta tom-semitom"
+    },
+    {
+     "idx": 2,
+     "nivel": "colorida",
+     "escala": "D mixolídio b9 b13"
+    },
+    {
+     "idx": 3,
+     "nivel": "segura",
+     "escala": "Ab lídio"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 33-40: parte em Dó maior",
+   "idx": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "opcoes": [
+    {
+     "idx": 32,
+     "nivel": "segura",
+     "escala": "C jônio"
+    },
+    {
+     "idx": 32,
+     "nivel": "colorida",
+     "escala": "C lídio"
+    },
+    {
+     "idx": 33,
+     "nivel": "segura",
+     "escala": "G dórico"
+    },
+    {
+     "idx": 34,
+     "nivel": "segura",
+     "escala": "C mixolídio"
+    },
+    {
+     "idx": 34,
+     "nivel": "colorida",
+     "escala": "C lídio b7"
+    },
+    {
+     "idx": 35,
+     "nivel": "segura",
+     "escala": "E dominante diminuta"
+    },
+    {
+     "idx": 35,
+     "nivel": "colorida",
+     "escala": "E alterada"
+    },
+    {
+     "idx": 35,
+     "nivel": "tensão",
+     "escala": "E mixolídio b9 b13"
+    },
+    {
+     "idx": 36,
+     "nivel": "segura",
+     "escala": "A eólio"
+    },
+    {
+     "idx": 36,
+     "nivel": "colorida",
+     "escala": "A dórico"
+    },
+    {
+     "idx": 37,
+     "nivel": "segura",
+     "escala": "D mixolídio"
+    },
+    {
+     "idx": 38,
+     "nivel": "segura",
+     "escala": "G mixolídio"
+    }
+   ]
+  },
+  {
+   "titulo": "c. 41-42: volta para Dó menor (casa 2)",
+   "idx": [
+    39,
+    40
+   ],
+   "opcoes": [
+    {
+     "idx": 39,
+     "nivel": "segura",
+     "escala": "D dórico"
+    },
+    {
+     "idx": 40,
+     "nivel": "segura",
+     "escala": "G mixolídio b13"
+    },
+    {
+     "idx": 40,
+     "nivel": "tensão",
+     "escala": "G mixolídio b9 b13"
+    }
+   ]
+  }
+ ]
+}

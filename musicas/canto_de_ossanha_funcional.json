@@ -1,0 +1,383 @@
+{
+ "acordes": [
+  {
+   "idx": 0,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 1,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 2,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 3,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 4,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 5,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 6,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 7,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 8,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 9,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 10,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 11,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 12,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 13,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 14,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 15,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 16,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 17,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 18,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 19,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 20,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 21,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 22,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 23,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 24,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 25,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 26,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 27,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 28,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 29,
+   "cifra": "Cm/Bb",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 30,
+   "cifra": "A°",
+   "tom_local": "Cm",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 31,
+   "cifra": "Ab6",
+   "tom_local": "Cm",
+   "grau": "bVI6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 32,
+   "cifra": "C6∕9",
+   "tom_local": "C",
+   "grau": "I6",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 33,
+   "cifra": "Gm7",
+   "tom_local": "C",
+   "grau": "IIm7/IV",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 34,
+   "cifra": "C7(9)",
+   "tom_local": "C",
+   "grau": "V7/IV",
+   "funcao": "D",
+   "alvo": "IV",
+   "confianca": "certo"
+  },
+  {
+   "idx": 35,
+   "cifra": "E7(♯9)",
+   "tom_local": "C",
+   "grau": "V7/VIm",
+   "funcao": "D",
+   "alvo": "VIm",
+   "confianca": "certo"
+  },
+  {
+   "idx": 36,
+   "cifra": "Am7",
+   "tom_local": "C",
+   "grau": "VIm7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 37,
+   "cifra": "D7(9)",
+   "tom_local": "C",
+   "grau": "V7/V",
+   "funcao": "D",
+   "alvo": "V",
+   "confianca": "certo"
+  },
+  {
+   "idx": 38,
+   "cifra": "G7(9)",
+   "tom_local": "C",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": "I",
+   "confianca": "certo",
+   "proximo_idx": 32
+  },
+  {
+   "idx": 39,
+   "cifra": "Dm7",
+   "tom_local": "C",
+   "grau": "IIm7",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 40,
+   "cifra": "G7(9)",
+   "tom_local": "C",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 41,
+   "cifra": "Cm",
+   "tom_local": "Cm",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  }
+ ]
+}

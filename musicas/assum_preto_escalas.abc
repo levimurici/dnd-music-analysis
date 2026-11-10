@@ -1,0 +1,77 @@
+X:1
+T:Assum Preto (harmonia sugerida) - escalas de improviso
+T:Concerto (C)
+M:none
+L:1/4
+K:C
+%
+"_Am · segura: Lá eólio""^c. 1-8: Lá menor e A7 levando a Ré menor"A B c d e f g a |]
+"_Am · colorida: Lá pentatônica menor"A c d e g a |]
+"_A7 · segura: Lá mixolídio b9 b13"A _B ^c d e f g a |]
+"_A7 · colorida: Lá mixolídio"A B ^c d e ^f g a |]
+"_Dm · segura: Ré dórico"D E F G A B c d |]
+%
+"_G7 · segura: Sol mixolídio""^c. 9-15: passagem pelo relativo Dó maior"G A B c d e f g |]
+"_C · segura: Dó jônio"C D E F G A B c |]
+"_C · colorida: Dó lídio"C D E ^F G A B c |]
+%
+"_E7 · segura: Mi mixolídio b9 b13""^c. 22-27: cadência e refrão (G7, F7M, E7, Am)"E F ^G A B c d e |]
+"_E7 · colorida: Mi dominante diminuta"E F G ^G ^A B ^c d e |]
+"_G7 · segura: Sol mixolídio"G A B c d e f g |]
+"_F7M · segura: Fá lídio"F G A B c d e f |]
+"_E7 · segura: Mi mixolídio b9 b13"E F ^G A B c d e |]
+"_E7 · tensão: Mi alterada"E F G _A _B c d e |]
+"_Am · segura: Lá eólio"A B c d e f g a |]
+"_Am · colorida: Lá dórico"A B c d e ^f g a |]
+
+X:2
+T:Assum Preto (harmonia sugerida) - escalas de improviso
+T:Sax Alto (Eb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am · segura: Fá♯ eólio""^c. 1-8: Lá menor e A7 levando a Ré menor"^F ^G A B ^c d e ^f |]
+"_Am · colorida: Fá♯ pentatônica menor"^F A B ^c e ^f |]
+"_A7 · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_A7 · colorida: Fá♯ mixolídio"^F ^G ^A B ^c ^d e ^f |]
+"_Dm · segura: Si dórico"B ^c d e ^f ^g a b |]
+%
+"_G7 · segura: Mi mixolídio""^c. 9-15: passagem pelo relativo Dó maior"E ^F ^G A B ^c d e |]
+"_C · segura: Lá jônio"A B ^c d e ^f ^g a |]
+"_C · colorida: Lá lídio"A B ^c ^d e ^f ^g a |]
+%
+"_E7 · segura: Dó♯ mixolídio b9 b13""^c. 22-27: cadência e refrão (G7, F7M, E7, Am)"^C D ^E ^F ^G A B ^c |]
+"_E7 · colorida: Dó♯ dominante diminuta"^C D E F G ^G ^A B ^c |]
+"_G7 · segura: Mi mixolídio"E ^F ^G A B ^c d e |]
+"_F7M · segura: Ré lídio"D E ^F ^G A B ^c d |]
+"_E7 · segura: Dó♯ mixolídio b9 b13"^C D ^E ^F ^G A B ^c |]
+"_E7 · tensão: Dó♯ alterada"^C D E F G A B ^c |]
+"_Am · segura: Fá♯ eólio"^F ^G A B ^c d e ^f |]
+"_Am · colorida: Fá♯ dórico"^F ^G A B ^c ^d e ^f |]
+
+X:3
+T:Assum Preto (harmonia sugerida) - escalas de improviso
+T:Sax Tenor (Bb) escrito
+M:none
+L:1/4
+K:C
+%
+"_Am · segura: Si eólio""^c. 1-8: Lá menor e A7 levando a Ré menor"B ^c d e ^f g a b |]
+"_Am · colorida: Si pentatônica menor"B d e ^f a b |]
+"_A7 · segura: Si mixolídio b9 b13"B c ^d e ^f g a b |]
+"_A7 · colorida: Si mixolídio"B ^c ^d e ^f ^g a b |]
+"_Dm · segura: Mi dórico"E ^F G A B ^c d e |]
+%
+"_G7 · segura: Lá mixolídio""^c. 9-15: passagem pelo relativo Dó maior"A B ^c d e ^f g a |]
+"_C · segura: Ré jônio"D E ^F G A B ^c d |]
+"_C · colorida: Ré lídio"D E ^F ^G A B ^c d |]
+%
+"_E7 · segura: Fá♯ mixolídio b9 b13""^c. 22-27: cadência e refrão (G7, F7M, E7, Am)"^F G ^A B ^c d e ^f |]
+"_E7 · colorida: Fá♯ dominante diminuta"^F G A ^A c ^c ^d e ^f |]
+"_G7 · segura: Lá mixolídio"A B ^c d e ^f g a |]
+"_F7M · segura: Sol lídio"G A B ^c d e ^f g |]
+"_E7 · segura: Fá♯ mixolídio b9 b13"^F G ^A B ^c d e ^f |]
+"_E7 · tensão: Fá♯ alterada"^F G A _B c d e ^f |]
+"_Am · segura: Si eólio"B ^c d e ^f g a b |]
+"_Am · colorida: Si dórico"B ^c d e ^f ^g a b |]

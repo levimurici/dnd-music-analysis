@@ -1,0 +1,176 @@
+{
+ "acordes": [
+  {
+   "idx": 0,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 1,
+   "cifra": "F/A",
+   "tom_local": "Am",
+   "grau": "bVI",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 2,
+   "cifra": "G#°",
+   "tom_local": "Am",
+   "grau": "VII°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 3,
+   "cifra": "G°",
+   "tom_local": "Am",
+   "grau": "bVII°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 4,
+   "cifra": "A7(♭13)",
+   "tom_local": "Am",
+   "grau": "V7/IVm",
+   "funcao": "D",
+   "alvo": "IVm",
+   "confianca": "certo"
+  },
+  {
+   "idx": 5,
+   "cifra": "Dm",
+   "tom_local": "Am",
+   "grau": "IVm",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 6,
+   "cifra": "Dm/C",
+   "tom_local": "Am",
+   "grau": "IVm",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 7,
+   "cifra": "Bø",
+   "tom_local": "Am",
+   "grau": "IIm7(b5)",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 8,
+   "cifra": "E7(♭9)",
+   "tom_local": "Am",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 9,
+   "cifra": "Am",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 10,
+   "cifra": "Am/G",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 11,
+   "cifra": "F#°",
+   "tom_local": "Am",
+   "grau": "VI°7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "provável"
+  },
+  {
+   "idx": 12,
+   "cifra": "Dm6/F",
+   "tom_local": "Am",
+   "grau": "IVm6",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 13,
+   "cifra": "E7(♭13)",
+   "tom_local": "Am",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo",
+   "proximo_idx": 0
+  },
+  {
+   "idx": 14,
+   "cifra": "Am/G",
+   "tom_local": "Am",
+   "grau": "Im",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 15,
+   "cifra": "F7",
+   "tom_local": "Am",
+   "grau": "SubV7/V",
+   "funcao": "D",
+   "alvo": "V",
+   "confianca": "provável"
+  },
+  {
+   "idx": 16,
+   "cifra": "Bø",
+   "tom_local": "Am",
+   "grau": "IIm7(b5)",
+   "funcao": "S",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 17,
+   "cifra": "E7(♭9)",
+   "tom_local": "Am",
+   "grau": "V7",
+   "funcao": "D",
+   "alvo": null,
+   "confianca": "certo"
+  },
+  {
+   "idx": 18,
+   "cifra": "Am7",
+   "tom_local": "Am",
+   "grau": "Im7",
+   "funcao": "T",
+   "alvo": null,
+   "confianca": "certo"
+  }
+ ]
+}
